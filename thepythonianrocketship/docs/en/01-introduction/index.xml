@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Course Introduction on Learn Python by Touhidul Alam Seyam</title>
-    <link>https://pythonianrocketship.github.io/en/01-introduction/</link>
+    <link>http://localhost:1313/en/01-introduction/</link>
     <description>Recent content in Course Introduction on Learn Python by Touhidul Alam Seyam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 04 Feb 2019 00:13:49 -0800</lastBuildDate>
-    <atom:link href="https://pythonianrocketship.github.io/en/01-introduction/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/01-introduction/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Your Instructor</title>
-      <link>https://pythonianrocketship.github.io/en/01-introduction/00-who/</link>
+      <link>http://localhost:1313/en/01-introduction/00-who/</link>
       <pubDate>Thu, 24 Jan 2019 09:14:14 -0800</pubDate>
-      <guid>https://pythonianrocketship.github.io/en/01-introduction/00-who/</guid>
+      <guid>http://localhost:1313/en/01-introduction/00-who/</guid>
       <description>&amp;lt;a href=&amp;ldquo;https://twitter.com/Seyamalam1&#34; target=&amp;quot;_blank&amp;rdquo;&amp;quot;&amp;gt; @Seyamalam1 Touhidul Alam Seyam Hello! I&amp;rsquo;m Touhidul Alam Seyam, currently studying Computer Science and Engineering at BGC Trust University Bangladesh. As a Research Assistant at my university, I have had the opportunity to explore my passion for computer science and technology. My love for programming began when I was just 12 years old, and I haven&amp;rsquo;t looked back since. I have been working as a Freelance Automation Developer for over three years, using my skills to help clients streamline their operations and increase efficiency.</description>
     </item>
     <item>
       <title>Navigating The Course</title>
-      <link>https://pythonianrocketship.github.io/en/01-introduction/02-navigating-course/</link>
+      <link>http://localhost:1313/en/01-introduction/02-navigating-course/</link>
       <pubDate>Mon, 04 Feb 2019 00:13:49 -0800</pubDate>
-      <guid>https://pythonianrocketship.github.io/en/01-introduction/02-navigating-course/</guid>
+      <guid>http://localhost:1313/en/01-introduction/02-navigating-course/</guid>
       <description>The course content is free and open source, and hosted on GitHub. A link is available so that edits can be suggested via Pull Requests.&#xA;Suggesting Changes to The Course Material If you notice a typo or any other issues with the material, please open a pull request on GitHub by clicking the &amp;ldquo;Edit this page&amp;rdquo; button on the top right corner of every course page.&#xA;&amp;lt;img src=&amp;quot;{{&amp;quot;/images/snake-scaled.png&amp;quot; | relURL }}&amp;quot;&amp;gt;</description>
     </item>
   </channel>
