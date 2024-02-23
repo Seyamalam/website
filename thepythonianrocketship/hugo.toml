@@ -5,7 +5,6 @@ title = 'The Pythonian RocketShip'
 theme="hugo-theme-learn"
 themesdir = "themes"
 metaDataFormat = "yaml"
-defaultContentLanguageInSubdir= true
 ignoreFiles = [ "\\.pyc$",  "__pycache__"]
 
 [params]
