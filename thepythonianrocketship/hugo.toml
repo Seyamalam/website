@@ -8,7 +8,6 @@ themesdir = "themes"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 ignoreFiles = [ "\\.pyc$",  "__pycache__"]
-publishDir = "docs"
 
 [params]
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
