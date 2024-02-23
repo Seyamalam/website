@@ -1,0 +1,4 @@
+[submodule "thepythonianrocketship/public"]
+	path = thepythonianrocketship/public
+	url = https://github.com/Seyamalam/pythonianrocketship.github.io.git
+	branch = main
