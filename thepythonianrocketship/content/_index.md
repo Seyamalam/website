@@ -8,13 +8,13 @@ chapter: true
 
 Welcome to Introduction and Intermediate Python, recorded for Frontend Masters.
 
-Created by Nina Zakharenko. <a href="https://twitter.com/nnja" target="_blank"><i class='fab fa-twitter'></i>@nnja</a>.
+Created by Nina Zakharenko. <a href="https://twitter.com/Seyamalam1" target="_blank"><i class='fab fa-twitter'></i>@Seyamalam1</a>.
 
 Watch the accompanying screencast via subscription on [FrontendMasters.com](https://frontendmasters.com/teachers/nina-zakharenko/).
 
 {{< figure src="/images/fem.png" title="Watch the course" link="https://frontendmasters.com/courses/python/">}}
 
-Stay up to date with me on <a href="https://www.linkedin.com/in/nnja/" target="_blank"><i class='fab fa-linkedin'></i> LinkedIn</a>, or to contact me directly, please send me an email at <a href='ma&#105;lto&#58;&#108;e&#37;61r&#37;&#54;Ep%&#55;&#57;t%68on&#64;nn&#106;&#97;&#46;&#105;o'><i class='fa fa-envelope'></i>  lea&#114;npyt&#104;on&#64;nnja&#46;&#105;o</a>.
+Stay up to date with me on <a href="https://www.linkedin.com/in/touhidul-alam-b675b521b/" target="_blank"><i class='fab fa-linkedin'></i> LinkedIn</a>, or to contact me directly, please send me an email at <a href='mailto:seyamalam41@gmail.com'><i class='fa fa-envelope'></i>  eyamalam41@gmail.como</a>.
 
 You can find the content and exercises on the <a href="https://git.io/python3"><i class='fab fa-fw fa-github'></i>Github repo</a>.
 

@@ -17,11 +17,11 @@ Let's double check this in the REPL:
 
 ```python
 >>> def twitter_info():
-...     twitter_account = "nnja"
+...     twitter_account = "Seyamalam1"
 ...     print(f"Account inside function: {twitter_account}")
 ...
 >>> twitter_info()
-Account inside function: nnja
+Account inside function: Seyamalam1
 >>> print(f"Account outside of function: {twitter_account}")
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
