@@ -1,4 +1,50 @@
 baseURL = 'https://pythonianrocketship.github.io'
 languageCode = 'en-us'
+defaultContentLanguage = "en"
+
 title = 'The Pythonian RocketShip'
 theme="hugo-theme-learn"
+themesdir = "themes"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
+ignoreFiles = [ "\\.pyc$",  "__pycache__"]
+publishDir = "docs"
+
+[params]
+  # Change default color scheme with a variant one. Can be "red", "blue", "green".
+  themeVariant = "blue"
+  defaultSocialImage = "images/twittercard.png"
+  description = "Free Learn Python Course by Touhidul Alam Seyam - An intensive two day introduction and intermediate course on Python. Video course will be published on YouTube (Coming Soon)."
+  author = "Touhidul Alam Seyam"
+  showVisitedLinks = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+  disableInlineCopyToClipBoard = true
+  twitter = "Seyamalam1"
+
+
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[Languages]
+[Languages.en]
+title = "Learn Python by Touhidul Alam Seyam"
+weight = 1
+languageName = "English"
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> Github repo"
+identifier = "ds"
+url = "https://github.com/Seyamalam/pythonianrocketship.github.io"
+weight = 10
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-twitter'></i> Follow Nina on Twitter"
+url = "https://twitter.com/nnja"
+weight = 20
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
+url = "/credits"
+weight = 30

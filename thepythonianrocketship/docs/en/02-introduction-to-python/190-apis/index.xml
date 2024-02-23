@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>APIs on Learn Python by Touhidul Alam Seyam</title>
+    <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/190-apis/</link>
+    <description>Recent content in APIs on Learn Python by Touhidul Alam Seyam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 16 Mar 2019 21:38:59 -0700</lastBuildDate>
+    <atom:link href="https://pythonianrocketship.github.io/en/02-introduction-to-python/190-apis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What Is an API?</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/190-apis/00-what-is-an-api/</link>
+      <pubDate>Sat, 16 Mar 2019 21:38:31 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/190-apis/00-what-is-an-api/</guid>
+      <description>Per the dictionary, an API is:&#xA;a set of functions and procedures allowing the creation of applications that access the features or data of an operating system, application, or other service.&#xA;An API is a standardized way of accessing information across the web, between clients and servers. These days most APIs are RESTful. That means they follow a common set of paradigms and practices.&#xA;There are many types of APIs, but these days they&amp;rsquo;re commonly known to refer to web APIs.</description>
+    </item>
+    <item>
+      <title>Working with APIs</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/190-apis/00-requests-and-responses/</link>
+      <pubDate>Sat, 16 Mar 2019 21:38:49 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/190-apis/00-requests-and-responses/</guid>
+      <description>Zapier has an excellent intro to APIs by by Brian Cooksey. The images and diagrams used on this page is from his post. Please read it here.&#xA;Requests and Responses Working with APIs using HTTP depends on the request and response cycle. You send a request to the server, and it lets you know if your request was successful or by sending an HTTP Status Code with a special meaning, and will optionally send back data.</description>
+    </item>
+    <item>
+      <title>Using The Requests Library</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/190-apis/00-the-requests-library/</link>
+      <pubDate>Sat, 16 Mar 2019 21:38:59 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/190-apis/00-the-requests-library/</guid>
+      <description>What is The requests Library? Python is &amp;ldquo;batteries included&amp;rdquo;, but sometimes the included libraries available in the standard library can be hard to understand. The standard library focuses on functionality, but not necessarily ease of use.&#xA;That&amp;rsquo;s where external libraries come in. The external requests library was developed by Kenneth Reitz to make working with APIs in Python a lot easier. He calls it &amp;ldquo;HTTP, for humans.&amp;rdquo; It&amp;rsquo;s become of the (if not the most) popular Python library!</description>
+    </item>
+    <item>
+      <title>Practice</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/190-apis/final-exercise/</link>
+      <pubDate>Fri, 25 Jan 2019 15:07:04 -0600</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/190-apis/final-exercise/</guid>
+      <description>Let&amp;rsquo;s review what we learned today and put it all together.&#xA;For the final exercise of today, we&amp;rsquo;re going to write a small program that requests the top repositories from GitHub, ordered by the number of stars each repository has, then we&amp;rsquo;re going to print the results to our terminal. Create a new file called day_one.py.&#xA;You may need to install the requests library using python -m pip install requests. You may see pip used directly, but using python -m pip is recommended by Python.</description>
+    </item>
+  </channel>
+</rss>

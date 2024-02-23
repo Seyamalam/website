@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Why Choose Python on Learn Python by Touhidul Alam Seyam</title>
+    <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/010-best-practices/</link>
+    <description>Recent content in Why Choose Python on Learn Python by Touhidul Alam Seyam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 08 Mar 2019 23:25:07 -0800</lastBuildDate>
+    <atom:link href="https://pythonianrocketship.github.io/en/02-introduction-to-python/010-best-practices/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Python 🐍</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/010-best-practices/02-brief-history/</link>
+      <pubDate>Thu, 24 Jan 2019 11:58:21 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/010-best-practices/02-brief-history/</guid>
+      <description>What is Python? Python is a programming language created by Guido Van Rossum in the late 1980s.&#xA;You might be surprised to learn that Python is 30 years old!&#xA;Where is it used? A common misconception is that Python is a scripting language. It&amp;rsquo;s used at companies from Reddit, to Netflix, to Dropbox.&#xA;What&amp;rsquo;s all this about Python 2 vs Python 3 This part is a bit of a stain on Python&amp;rsquo;s history.</description>
+    </item>
+    <item>
+      <title>Conventions</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/010-best-practices/03-conventions/</link>
+      <pubDate>Sun, 10 Feb 2019 21:46:57 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/010-best-practices/03-conventions/</guid>
+      <description>PEP8 PEP8 is a Python coding standard, that sets guidelines for how our Python code should look like.</description>
+    </item>
+    <item>
+      <title>Anatomy of a Python Program</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/010-best-practices/01-anatomy-of-a-python-program/</link>
+      <pubDate>Fri, 08 Mar 2019 23:25:07 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/010-best-practices/01-anatomy-of-a-python-program/</guid>
+      <description>Let&amp;rsquo;s take a very quick look at a Python program that uses the GitHub Search API to display a list of popular repositories in three different programming languages, sorted by the amount of stars that they have. It may be hard to believe, but by the end of the day, you&amp;rsquo;ll be able to write a program just like this.&#xA;A Python program for using the GitHub search API &amp;#34;&amp;#34;&amp;#34; A small Python program that uses the GitHub search API to list the top projects by language, based on stars.</description>
+    </item>
+  </channel>
+</rss>

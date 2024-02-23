@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intermediate Python on Learn Python by Touhidul Alam Seyam</title>
+    <link>https://pythonianrocketship.github.io/en/03-intermediate-python/</link>
+    <description>Recent content in Intermediate Python on Learn Python by Touhidul Alam Seyam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 03 Mar 2019 11:56:24 -0800</lastBuildDate>
+    <atom:link href="https://pythonianrocketship.github.io/en/03-intermediate-python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Final Project Preview</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/00-final-project-preview/</link>
+      <pubDate>Sun, 03 Mar 2019 11:56:24 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/00-final-project-preview/</guid>
+      <description>Final Project Preview Our final project on Day 2 will involve creating a simple Flask web application from our Day 1 final exercise.</description>
+    </item>
+  </channel>
+</rss>

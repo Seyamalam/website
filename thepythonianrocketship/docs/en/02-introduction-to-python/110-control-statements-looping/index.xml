@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Loops and Control Statements on Learn Python by Touhidul Alam Seyam</title>
+    <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/110-control-statements-looping/</link>
+    <description>Recent content in Loops and Control Statements on Learn Python by Touhidul Alam Seyam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 08 Mar 2019 00:00:00 -0800</lastBuildDate>
+    <atom:link href="https://pythonianrocketship.github.io/en/02-introduction-to-python/110-control-statements-looping/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Looping in Python</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/110-control-statements-looping/05-looping-in-python/</link>
+      <pubDate>Sun, 10 Feb 2019 18:21:55 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/110-control-statements-looping/05-looping-in-python/</guid>
+      <description>for Loop Cheat Sheet Looping in Python doesn&amp;rsquo;t look like looping in other languages.&#xA;If you write JavaScript, Java, or other languages, you might have seen code that looks something like this code, that keeps track of 3 things: the starting index, the condition the loop will run until, and which action to take (in this case, incrementing the variable i by 1) until the condition is met.&#xA;for (i = 0; i &amp;lt; 5; i++) { text += &amp;#34;The number is &amp;#34; + i + &amp;#34;&amp;lt;br&amp;gt;&amp;#34;; } In fact, before these languages introduced something called a for each loop, that was also the clunky way you&amp;rsquo;d loop through items in a sequence.</description>
+    </item>
+    <item>
+      <title>if, else, elif</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/110-control-statements-looping/10-if-else-elif/</link>
+      <pubDate>Sun, 10 Feb 2019 18:20:07 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/110-control-statements-looping/10-if-else-elif/</guid>
+      <description>The if Statement and Conditionals if in Python means: only run the rest of this code once, if the condition evaluates to True. Don&amp;rsquo;t run the rest of the code at all if it&amp;rsquo;s not.&#xA;Anatomy of an if statement: Start with the if keyword, followed by a boolean value, an expression that evaluates to True, or a value with &amp;ldquo;Truthiness&amp;rdquo;. Add a colon :, a new line, and write the code that will run if the statement is True under a level of indentation.</description>
+    </item>
+    <item>
+      <title>while loops</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/110-control-statements-looping/30-while-loops/</link>
+      <pubDate>Sun, 10 Feb 2019 18:22:01 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/110-control-statements-looping/30-while-loops/</guid>
+      <description>while loops are a special type of loop in Python. Instead of running just once when a condition is met, like an if statement, they run forever until a condition is no longer met.&#xA;while loops usually need to be accompanied by an always changing sentinel value.&#xA;&amp;gt;&amp;gt;&amp;gt; counter = 0 &amp;gt;&amp;gt;&amp;gt; max = 4 &amp;gt;&amp;gt;&amp;gt; &amp;gt;&amp;gt;&amp;gt; while counter &amp;lt; max: ... print(f&amp;#34;The count is: {counter}&amp;#34;) ... counter = counter + 1 .</description>
+    </item>
+    <item>
+      <title>break, continue, and return</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/110-control-statements-looping/40-break-continue/</link>
+      <pubDate>Sun, 03 Mar 2019 16:05:01 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/110-control-statements-looping/40-break-continue/</guid>
+      <description>break and continue allow you to control the flow of your loops. They&amp;rsquo;re a concept that beginners to Python tend to misunderstand, so pay careful attention.&#xA;Using break The break statement will completely break out of the current loop, meaning it won&amp;rsquo;t run any more of the statements contained inside of it.&#xA;&amp;gt;&amp;gt;&amp;gt; names = [&amp;#34;Rose&amp;#34;, &amp;#34;Max&amp;#34;, &amp;#34;Nina&amp;#34;, &amp;#34;Phillip&amp;#34;] &amp;gt;&amp;gt;&amp;gt; for name in names: ... print(f&amp;#34;Hello, {name}&amp;#34;) ... if name == &amp;#34;Nina&amp;#34;: .</description>
+    </item>
+    <item>
+      <title>Practice</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/110-control-statements-looping/50-exercise/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/110-control-statements-looping/50-exercise/</guid>
+      <description>Control statements and looping if, else, and elif Let&amp;rsquo;s practice our branching statements. Remember that elif (short for else if) is an optional branch that will let you add another if test, and else is an optional branch that will catch anything not previously caught by if or elif.&#xA;&amp;gt;&amp;gt;&amp;gt; def test_number(number): ... if number &amp;lt; 100: ... print(&amp;#34;This is a pretty small number&amp;#34;) ... elif number == 100: ... print(&amp;#34;This number is alright&amp;#34;) .</description>
+    </item>
+  </channel>
+</rss>

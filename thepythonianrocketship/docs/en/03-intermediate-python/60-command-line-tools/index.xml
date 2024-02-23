@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Writing Command Line Tools on Learn Python by Touhidul Alam Seyam</title>
+    <link>https://pythonianrocketship.github.io/en/03-intermediate-python/60-command-line-tools/</link>
+    <description>Recent content in Writing Command Line Tools on Learn Python by Touhidul Alam Seyam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 10 Mar 2019 19:27:09 -0700</lastBuildDate>
+    <atom:link href="https://pythonianrocketship.github.io/en/03-intermediate-python/60-command-line-tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advanced Strings</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/60-command-line-tools/10-advanced-strings/</link>
+      <pubDate>Sun, 10 Feb 2019 18:17:18 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/60-command-line-tools/10-advanced-strings/</guid>
+      <description>Advanced f-strings Decimal Formatting Formatting decimal or floating point numbers with f-strings is easy - you can pass in both a field width and a precision. The format is {value:width.precision}. Let&amp;rsquo;s format pi (3.1415926) to two decimal places - we&amp;rsquo;ll set the width to 1 because we don&amp;rsquo;t need padding, and the precision to 3, giving us the one number to the left of the decimal and the two numbers to the right:</description>
+    </item>
+    <item>
+      <title>Accepting User Input</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/60-command-line-tools/30-accepting-user-input/</link>
+      <pubDate>Sun, 10 Mar 2019 19:27:09 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/60-command-line-tools/30-accepting-user-input/</guid>
+      <description>Accepting Command Line Arguments To accept basic arguments from the command line, we can use sys.argv. argv is a list that gets passed in to your program that contains whatever arguments your program was started with. Start a new Python file called cli_exercise.py and enter the following:&#xA;import sys args = sys.argv print(args) Now run it:&#xA;(env) $ python cli_exercise.py [&amp;#39;cli_exercise.py&amp;#39;] You should see a list with one item: the name of your program.</description>
+    </item>
+    <item>
+      <title>Practice</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/60-command-line-tools/90-exercise/</link>
+      <pubDate>Fri, 25 Jan 2019 15:07:04 -0600</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/60-command-line-tools/90-exercise/</guid>
+      <description>Accepting User Input with Args To accept basic arguments from the command line, we can use sys.argv. Start a new Python file called cli_exercise.py and enter the following.&#xA;import sys args = sys.argv print(args) Then, run it from the command line:&#xA;(env) $ python cli_exercise.py Here&amp;#39;s what you should have seen on your command line: (env) $ python cli_exercise.py [&amp;#39;cli_exercise.py&amp;#39;] You should see a list with one item: the name of your program.</description>
+    </item>
+  </channel>
+</rss>

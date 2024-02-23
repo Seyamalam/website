@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learn Python on Learn Python by Touhidul Alam Seyam</title>
+    <link>https://pythonianrocketship.github.io/en/</link>
+    <description>Recent content in Learn Python on Learn Python by Touhidul Alam Seyam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 16 Mar 2019 21:38:59 -0700</lastBuildDate>
+    <atom:link href="https://pythonianrocketship.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What Is an API?</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/190-apis/00-what-is-an-api/</link>
+      <pubDate>Sat, 16 Mar 2019 21:38:31 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/190-apis/00-what-is-an-api/</guid>
+      <description>Per the dictionary, an API is:&#xA;a set of functions and procedures allowing the creation of applications that access the features or data of an operating system, application, or other service.&#xA;An API is a standardized way of accessing information across the web, between clients and servers. These days most APIs are RESTful. That means they follow a common set of paradigms and practices.&#xA;There are many types of APIs, but these days they&amp;rsquo;re commonly known to refer to web APIs.</description>
+    </item>
+    <item>
+      <title>Basic Flask</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/80-web-frameworks/basic-flask/</link>
+      <pubDate>Sun, 10 Mar 2019 19:30:36 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/80-web-frameworks/basic-flask/</guid>
+      <description>Types of Web Frameworks in Python Django Django is a full-featured, high-level framework for building web apps. Django focuses on automating as much as possible, and many large-scale sites run on Django.&#xA;Flask Flask is a &amp;ldquo;microframework&amp;rdquo; for Python, allowing users to make basic backend APIs and webapps with a minimum of code. Flask is easy for beginners and not opinionated, so we&amp;rsquo;ll be focusing on it for today&amp;rsquo;s exercises.</description>
+    </item>
+    <item>
+      <title>Concept</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/70-tests/10-concept/</link>
+      <pubDate>Sun, 10 Mar 2019 19:30:29 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/70-tests/10-concept/</guid>
+      <description>Unit testing is a software testing method by which individual functions are tested in an automated fashion to determine if they are fit for use. Automated unit testing not only helps you discover and fix bugs quicker and easier than if you weren&amp;rsquo;t testing, but by writing them alongside or even before your functions, they can help you write cleaner and more bug-free code from the very start.&#xA;Types of Tests There are several different kinds of automated tests that can be performed at different abstraction levels.</description>
+    </item>
+    <item>
+      <title>Concept</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/30-oop-classes-inheritance/10-concept/</link>
+      <pubDate>Sun, 10 Mar 2019 19:29:28 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/30-oop-classes-inheritance/10-concept/</guid>
+      <description>Object-oriented Programming (OOP) is a language model (or paradigm) in which properties or behaviors are organized into &amp;ldquo;objects&amp;rdquo;. Some languages encourage a more procedural style, like if you were writing a recipe - some popular examples are COBOL and BASIC. Languages that adopt an Object-oriented style organize things into objects, and provide methods for objects to communicate with one another.&#xA;What is an object? An object can be a function, a variable, a property, a class&amp;hellip; everything in Python is an object.</description>
+    </item>
+    <item>
+      <title>Standard Library</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/50-libraries-modules/10-standard-library/</link>
+      <pubDate>Sun, 10 Mar 2019 19:16:56 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/50-libraries-modules/10-standard-library/</guid>
+      <description>Python has always had a &amp;ldquo;batteries included&amp;rdquo; philosophy - having a rich and versatile standard library which is immediately available, without making the user download separate packages. This is thought to have contributed to Python&amp;rsquo;s early success. No matter what you&amp;rsquo;re trying to accomplish, there&amp;rsquo;s probably a built-in library that can help you do what you want.&#xA;The downside to this is that the standard libraries need to maintain backwards compatibility.</description>
+    </item>
+    <item>
+      <title>All About Exceptions</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/40-exceptions/10-all-about-exceptions/</link>
+      <pubDate>Sun, 10 Mar 2019 19:15:54 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/40-exceptions/10-all-about-exceptions/</guid>
+      <description>Built-in exceptions and easy exception handling is one of the shining features of Python. Technically, errors that happen during parsing are called SyntaxErrors - these will probably be the most common errors you see, and usually happen because of a mistake in whitespace, a syntax misunderstanding, or a simple typo.&#xA;Even if the syntax is correct, errors can still occur when your program is run. We call these Exceptions, and there a many different types (this is a good thing, because the more specifically we know what went wrong, the better we can handle it).</description>
+    </item>
+    <item>
+      <title>List Comprehensions</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/20-advanced-looping/10-list-comprehensions/</link>
+      <pubDate>Sun, 10 Mar 2019 19:13:32 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/20-advanced-looping/10-list-comprehensions/</guid>
+      <description>List comprehensions are a unique way to create lists in Python. A list comprehension consists of brackets containing an expression followed by a for clause, then zero or more for or if clauses. The expressions can be any kind of Python object. List comprehensions will commonly take the form of [&amp;lt;value&amp;gt; for &amp;lt;vars&amp;gt; in &amp;lt;iter&amp;gt;].&#xA;A simple case: Say we want to turn a list of strings into a list of string lengths.</description>
+    </item>
+    <item>
+      <title>Final Project Preview</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/00-final-project-preview/</link>
+      <pubDate>Sun, 03 Mar 2019 11:56:24 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/00-final-project-preview/</guid>
+      <description>Final Project Preview Our final project on Day 2 will involve creating a simple Flask web application from our Day 1 final exercise.</description>
+    </item>
+    <item>
+      <title>Getting Ready</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/10-introduction/00-getting-ready/</link>
+      <pubDate>Sun, 03 Mar 2019 11:56:24 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/10-introduction/00-getting-ready/</guid>
+      <description>Get Ready For Day 2 - Navigate To Your Project Building on the project structure from Day 1, enter your ~/pyworkshop directory, and start your already existing virtual environment.&#xA;Windows:&#xA;&amp;gt; cd $home &amp;gt; cd pyworkshop &amp;gt; env\scripts\activate Mac:&#xA;$ cd ~/pyworkshop $ source env/bin/activate Open VS Code If VS Code isn&amp;rsquo;t already open, type the following in the same PowerShell or Terminal window where you activated your virtual environment.</description>
+    </item>
+    <item>
+      <title>Advanced Strings</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/60-command-line-tools/10-advanced-strings/</link>
+      <pubDate>Sun, 10 Feb 2019 18:17:18 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/60-command-line-tools/10-advanced-strings/</guid>
+      <description>Advanced f-strings Decimal Formatting Formatting decimal or floating point numbers with f-strings is easy - you can pass in both a field width and a precision. The format is {value:width.precision}. Let&amp;rsquo;s format pi (3.1415926) to two decimal places - we&amp;rsquo;ll set the width to 1 because we don&amp;rsquo;t need padding, and the precision to 3, giving us the one number to the left of the decimal and the two numbers to the right:</description>
+    </item>
+    <item>
+      <title>Variables and Types</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/020-basic-data-types/00-variables/</link>
+      <pubDate>Sun, 03 Feb 2019 23:26:13 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/020-basic-data-types/00-variables/</guid>
+      <description>Naming Variables Python variables can&amp;rsquo;t start with a number. In general, they&amp;rsquo;re named all lower case, separated by underscores. Unlike other languages, that name their variables with camelCase.&#xA;You don&amp;rsquo;t want to name your variables the same as the types that we&amp;rsquo;ll be working with. For example don&amp;rsquo;t name your variables int, list, dict. Etc.&#xA;Open The REPL Learn about variables by typing along in the Python REPL with me.</description>
+    </item>
+    <item>
+      <title>About Your Instructor</title>
+      <link>https://pythonianrocketship.github.io/en/01-introduction/00-who/</link>
+      <pubDate>Thu, 24 Jan 2019 09:14:14 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/01-introduction/00-who/</guid>
+      <description>&amp;lt;a href=&amp;ldquo;https://twitter.com/nnja&#34; target=&amp;quot;_blank&amp;rdquo;&amp;quot;&amp;gt; @nnja Nina Zakharenko Hi, I&amp;rsquo;m Nina Zakharenko. I&amp;rsquo;m a Senior Cloud Developer Advocate at Microsoft, focusing on Python. Before Microsoft, I wrote code for other cool companies like Reddit, Meetup, and HBO. In my spare time I like drinking scotch and tinkering with wearable electronics. I enjoy hiking and snowboarding from my home base in Portland, Oregon. I change my hair color regularly.&#xA;I&amp;rsquo;ve been involved in the Python community for approximately 6 years.</description>
+    </item>
+    <item>
+      <title>Getting Started</title>
+      <link>https://pythonianrocketship.github.io/en/01-introduction/02-requirements/05-vs-code/01-getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/01-introduction/02-requirements/05-vs-code/01-getting-started/</guid>
+      <description>Visual Studio Code (commonly called VS Code) is a free, open source, lightweight cross platform code editor. A fresh installation is bare bones &amp;ndash; the power of VS Code comes via the extensions. There are useful extensions for every programming languages you can think of, but the choice of which ones to install and how to configure your editor is up to you.&#xA;Installation You should have installed the editor and the Python extension as part of the pre-requisites for the course.</description>
+    </item>
+    <item>
+      <title>Working with APIs</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/190-apis/00-requests-and-responses/</link>
+      <pubDate>Sat, 16 Mar 2019 21:38:49 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/190-apis/00-requests-and-responses/</guid>
+      <description>Zapier has an excellent intro to APIs by by Brian Cooksey. The images and diagrams used on this page is from his post. Please read it here.&#xA;Requests and Responses Working with APIs using HTTP depends on the request and response cycle. You send a request to the server, and it lets you know if your request was successful or by sending an HTTP Status Code with a special meaning, and will optionally send back data.</description>
+    </item>
+    <item>
+      <title>Navigating The Course</title>
+      <link>https://pythonianrocketship.github.io/en/01-introduction/02-navigating-course/</link>
+      <pubDate>Mon, 04 Feb 2019 00:13:49 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/01-introduction/02-navigating-course/</guid>
+      <description>The course content is free and open source, and hosted on GitHub. A link will be available after the class so that edits can be suggested via Pull Requests.&#xA;Suggesting Changes to The Course Material If you notice a typo or any other issues with the material after the class, please open a pull request on GitHub by clicking the &amp;ldquo;Edit this page&amp;rdquo; button on the top right corner of every course page.</description>
+    </item>
+    <item>
+      <title>Numbers</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/020-basic-data-types/02-numbers/</link>
+      <pubDate>Sun, 03 Feb 2019 23:14:25 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/020-basic-data-types/02-numbers/</guid>
+      <description>First, open up the REPL.&#xA;Remember, you&amp;rsquo;ll learn best if you type along with me.&#xA;There are three different types of numbers in Python: int for Integer, Float, and Complex.&#xA;# These are all integers x = 4 y = -193394 z = 0 # These are all floats x = 5.0 y = -3983.2 z = 0. # This is a complex number x = 42j In Python, Integers and other simple data types are just objects under the hood.</description>
+    </item>
+    <item>
+      <title>About Python 🐍</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/010-best-practices/02-brief-history/</link>
+      <pubDate>Thu, 24 Jan 2019 11:58:21 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/010-best-practices/02-brief-history/</guid>
+      <description>What is Python? Python is a programming language created by Guido Van Rossum in the late 1980s.&#xA;You might be surprised to learn that Python is 30 years old!&#xA;Where is it used? A common misconception is that Python is a scripting language. It&amp;rsquo;s used at companies from Reddit, to Netflix, to Dropbox.&#xA;What&amp;rsquo;s all this about Python 2 vs Python 3 This part is a bit of a stain on Python&amp;rsquo;s history.</description>
+    </item>
+    <item>
+      <title>Using The Requests Library</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/190-apis/00-the-requests-library/</link>
+      <pubDate>Sat, 16 Mar 2019 21:38:59 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/190-apis/00-the-requests-library/</guid>
+      <description>What is The requests Library? Python is &amp;ldquo;batteries included&amp;rdquo;, but sometimes the included libraries available in the standard library can be hard to understand. The standard library focuses on functionality, but not necessarily ease of use.&#xA;That&amp;rsquo;s where external libraries come in. The external requests library was developed by Kenneth Reitz to make working with APIs in Python a lot easier. He calls it &amp;ldquo;HTTP, for humans.&amp;rdquo; It&amp;rsquo;s become of the (if not the most) popular Python library!</description>
+    </item>
+    <item>
+      <title>Assertions</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/70-tests/30-assertions/</link>
+      <pubDate>Sun, 10 Mar 2019 19:30:41 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/70-tests/30-assertions/</guid>
+      <description>Python comes with a handy-dandy assert keyword that you can use for simple sanity checks. An assertion is simply a boolean expression that checks if its conditions return true or not. If the assertion is true, the program continues. If it&amp;rsquo;s false, it throws an AssertionError, and your program will stop. Assertions are also a great debugging tool, as they can stop your program in exactly the spot where an error has occurred.</description>
+    </item>
+    <item>
+      <title>Classes</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/30-oop-classes-inheritance/30-classes/</link>
+      <pubDate>Sun, 10 Mar 2019 19:29:24 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/30-oop-classes-inheritance/30-classes/</guid>
+      <description>Every thing or object in Python is an instance of a class. The number 42 is an instance of the class int. The string Hello, world is an instance of the str (or string) class. These classes, in turn, are subclasses of the master object class.&#xA;Classes vs Instances The Object-oriented Programming paradigm is structured around Classes and Instances. You can think of a class as a &amp;ldquo;type&amp;rdquo; of something, like &amp;ldquo;Car.</description>
+    </item>
+    <item>
+      <title>Accepting User Input</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/60-command-line-tools/30-accepting-user-input/</link>
+      <pubDate>Sun, 10 Mar 2019 19:27:09 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/60-command-line-tools/30-accepting-user-input/</guid>
+      <description>Accepting Command Line Arguments To accept basic arguments from the command line, we can use sys.argv. argv is a list that gets passed in to your program that contains whatever arguments your program was started with. Start a new Python file called cli_exercise.py and enter the following:&#xA;import sys args = sys.argv print(args) Now run it:&#xA;(env) $ python cli_exercise.py [&amp;#39;cli_exercise.py&amp;#39;] You should see a list with one item: the name of your program.</description>
+    </item>
+    <item>
+      <title>Modules and Imports</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/50-libraries-modules/30-modules-and-imports/</link>
+      <pubDate>Sun, 10 Mar 2019 19:16:35 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/50-libraries-modules/30-modules-and-imports/</guid>
+      <description>Python has a simple package structure. Any directory with a file named __init__.py can be considered a Python module.&#xA;Note: a __init__.py file is no longer required for Python 3 modules, but it&amp;rsquo;s still supported and can be useful.&#xA;For example, let&amp;rsquo;s make a basic function and start a new module to house it:&#xA;def add_numbers(x, y): return x + y Let&amp;rsquo;s put our function in a file called __init__.py and place it in a folder called my_math_functions.</description>
+    </item>
+    <item>
+      <title>Try Except</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/40-exceptions/30-try-except-else-finally/</link>
+      <pubDate>Sun, 10 Mar 2019 19:15:54 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/40-exceptions/30-try-except-else-finally/</guid>
+      <description>Many languages have the concept of the &amp;ldquo;Try-Catch&amp;rdquo; block. Python uses four keywords: try, except, else, and finally. Code that can possibly throw an exception goes in the try block. except gets the code that runs if an exception is raised. else is an optional block that runs if no exception was raised in the try block, and finally is an optional block of code that will run last, regardless of if an exception was raised.</description>
+    </item>
+    <item>
+      <title>Other Comprehensions</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/20-advanced-looping/30-other-comprehensions/</link>
+      <pubDate>Sun, 10 Mar 2019 19:13:39 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/20-advanced-looping/30-other-comprehensions/</guid>
+      <description>Dictionary Comprehensions Dictionary comprehensions are a quick and easy way of assembling dictionaries in Python. They work just like list comprehensions, and look almost the same. They use curly braces instead of square brackets, and they contain two variables (for key and value), separated by a colon.&#xA;For example, to assemble a dict in which the keys are numbers between 0 and 10, and the values are the same number squared, we could do:</description>
+    </item>
+    <item>
+      <title>Python Philosophy</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/10-introduction/00-python-philosophy/</link>
+      <pubDate>Sun, 03 Mar 2019 11:56:24 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/10-introduction/00-python-philosophy/</guid>
+      <description>The Zen of Python is a collection of 19 software principles written in a poem that influences the design of Python Programming Language. It was published on the Python mailing list in June 1999 by Tim Peters. *&#xA;Zen of Python in The Python Interpreter The Zen of Python is included as an easter egg in the Python REPL. You can read it by typing import this in our REPL, to learn a little more about the principles and philosophy behind Python.</description>
+    </item>
+    <item>
+      <title>Conventions</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/010-best-practices/03-conventions/</link>
+      <pubDate>Sun, 10 Feb 2019 21:46:57 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/010-best-practices/03-conventions/</guid>
+      <description>PEP8 PEP8 is a Python coding standard, that sets guidelines for how our Python code should look like.</description>
+    </item>
+    <item>
+      <title>Strings</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/020-basic-data-types/03-strings/</link>
+      <pubDate>Sun, 03 Feb 2019 23:14:35 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/020-basic-data-types/03-strings/</guid>
+      <description>Representing Strings Strings in Python can be enclosed either with single quotes like &#39;hello&#39; or double quotes, like &amp;quot;hello&amp;quot;.&#xA;Strings can also be concatenated (added together) using the + operator to combine an arbitrary number of Strings. For example:&#xA;salutation = &amp;#34;Hello &amp;#34; name = &amp;#34;Nina&amp;#34; greeting = salutation + name # The value of greeting will be &amp;#34;Hello Nina&amp;#34; To use the same type of quote within a string, that quote needs to be escaped with a \ - backwards slash.</description>
+    </item>
+    <item>
+      <title>Working With Python</title>
+      <link>https://pythonianrocketship.github.io/en/01-introduction/02-requirements/05-vs-code/03-working-with-python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/01-introduction/02-requirements/05-vs-code/03-working-with-python/</guid>
+      <description>Once we open our first Python file in VS Code, we&amp;rsquo;ll see some configuration pop-ups. For the time being, don&amp;rsquo;t dismiss them.&#xA;Configuring VS Code for Python Open the project.py file If you haven&amp;rsquo;t created a project.py file in the pyworkshop directory, now is the time to do so. You can make a new file (Ctrl+N or ⌘P) and then save it (Ctrl+S or ⌘S).&#xA;Now that you&amp;rsquo;ve learned the necessary keyboard shortcuts, use Quick Open with Ctrl+P or ⌘P to open the project.</description>
+    </item>
+    <item>
+      <title>Anatomy of a Python Program</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/010-best-practices/01-anatomy-of-a-python-program/</link>
+      <pubDate>Fri, 08 Mar 2019 23:25:07 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/010-best-practices/01-anatomy-of-a-python-program/</guid>
+      <description>Let&amp;rsquo;s take a very quick look at a Python program that uses the GitHub Search API to display a list of popular repositories in three different programming languages, sorted by the amount of stars that they have. It may be hard to believe, but by the end of the day, you&amp;rsquo;ll be able to write a program just like this.&#xA;A Python program for using the GitHub search API &amp;#34;&amp;#34;&amp;#34; A small Python program that uses the GitHub search API to list the top projects by language, based on stars.</description>
+    </item>
+    <item>
+      <title>String Operations</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/10-introduction/15-converting-between-types/04-string-operations/</link>
+      <pubDate>Sun, 10 Feb 2019 18:30:43 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/10-introduction/15-converting-between-types/04-string-operations/</guid>
+      <description>Split and Join Strings have two functions for splitting and joining - split() and join(). Calling split() on a string will split the string into a list, creating a new element for every instance of the character(s) you pass in. join() accepts a list of strings, and uses the string you call it on to join the list together into one string. For example:&#xA;&amp;gt;&amp;gt;&amp;gt; my_data = &amp;#34;this,is,comma,separated,data&amp;#34; &amp;gt;&amp;gt;&amp;gt; my_data = my_data.</description>
+    </item>
+    <item>
+      <title>Using The REPL</title>
+      <link>https://pythonianrocketship.github.io/en/01-introduction/02-requirements/05-vs-code/04-the-repl-in-vscode/</link>
+      <pubDate>Sun, 10 Feb 2019 18:11:15 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/01-introduction/02-requirements/05-vs-code/04-the-repl-in-vscode/</guid>
+      <description>The REPL REPL stands for Read, Evaluate, Print, Loop. The REPL is how you interact with the Python Interpreter.&#xA;Unlike running a file containing Python code, in the REPL you can type commands and instantly see the output printed out. You can also use the REPL to print out help for methods and objects in Python, list out what methods are available, and much more.&#xA;Open The REPL To start the REPL in VS code, open the command palette and search for and select &amp;ldquo;Start REPL&amp;rdquo;.</description>
+    </item>
+    <item>
+      <title>Writing Tests</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/70-tests/50-writing-tests/</link>
+      <pubDate>Sun, 10 Mar 2019 19:30:36 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/70-tests/50-writing-tests/</guid>
+      <description>There are a few different frameworks for writing unit tests in Python, but they&amp;rsquo;re all very similar. We&amp;rsquo;ll focus on the built-in unittest library. unittest is both a framework for writing tests, as well as a test runner, meaning it can execute your tests and return the results. In order to write unittest tests, you must:&#xA;Write your tests as methods within classes Use a series of built-in assertion methods Let&amp;rsquo;s start with a simple function to test, multiply(), which takes two numbers and multiplies them.</description>
+    </item>
+    <item>
+      <title>Methods</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/30-oop-classes-inheritance/50-methods/</link>
+      <pubDate>Sun, 10 Mar 2019 19:29:24 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/30-oop-classes-inheritance/50-methods/</guid>
+      <description>You&amp;rsquo;ve just seen the difference between class and instance variables. Classes can also have class methods - methods that are shared among all instances of a certain type. As with variables, they can be overriden in a specific instance or subclass.&#xA;Let&amp;rsquo;s add a class method to our Car class:&#xA;class Car: runs = True number_of_wheels = 4 @classmethod def get_number_of_wheels(cls): return cls.number_of_wheels def start(self): if self.runs: print(&amp;#34;Car is started. Vroom vroom!</description>
+    </item>
+    <item>
+      <title>PyPI</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/50-libraries-modules/50-pypi/</link>
+      <pubDate>Sun, 10 Mar 2019 19:17:03 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/50-libraries-modules/50-pypi/</guid>
+      <description>PyPI (the Python Package Index) is an awesome service that helps you find and install software developed and shared by the Python community. Almost every user-contributed Python package has been published to PyPI. You can browse the site at pypi.org but most of the time you will probably interact with it through Python&amp;rsquo;s pip tool.&#xA;Basic Usage You can use the pip tool to install the latest version of a module and its dependencies from the Python Packaging Index:</description>
+    </item>
+    <item>
+      <title>Slicing</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/20-advanced-looping/50-slicing/</link>
+      <pubDate>Sun, 10 Mar 2019 19:13:03 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/20-advanced-looping/50-slicing/</guid>
+      <description>Slicing is a easy way to create sub-lists from larger lists. If you remember back to our exercise on data types, we can use a slice to obtain a subset of items from a list. Remember that a string is just a list of characters. For example:&#xA;&amp;gt;&amp;gt;&amp;gt; my_string = &amp;#34;Hello, world!&amp;#34; &amp;gt;&amp;gt;&amp;gt; my_string[7:12] # from 7 to 12 &amp;#39;world&amp;#39; Lopsided Slicing You can also leave out one of the numbers in the slice.</description>
+    </item>
+    <item>
+      <title>Common Mistakes</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/020-basic-data-types/05-common-string-and-number-errors/</link>
+      <pubDate>Sun, 10 Feb 2019 18:33:43 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/020-basic-data-types/05-common-string-and-number-errors/</guid>
+      <description>There are a few common errors that you&amp;rsquo;ll encounter when working with Strings and numbers. Remember, in Python program errors are called Exceptions. By going over what they are, you&amp;rsquo;ll be able to recognize them immediately.&#xA;Scenario 1: Mismatched string quotes Mismatched string quotes will result in a SyntaxError&#xA;When we try to start a String with one type of quote, and end with another, we&amp;rsquo;ll see a syntax error.</description>
+    </item>
+    <item>
+      <title>Looping in Python</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/110-control-statements-looping/05-looping-in-python/</link>
+      <pubDate>Sun, 10 Feb 2019 18:21:55 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/110-control-statements-looping/05-looping-in-python/</guid>
+      <description>for Loop Cheat Sheet Looping in Python doesn&amp;rsquo;t look like looping in other languages.&#xA;If you write JavaScript, Java, or other languages, you might have seen code that looks something like this code, that keeps track of 3 things: the starting index, the condition the loop will run until, and which action to take (in this case, incrementing the variable i by 1) until the condition is met.&#xA;for (i = 0; i &amp;lt; 5; i++) { text += &amp;#34;The number is &amp;#34; + i + &amp;#34;&amp;lt;br&amp;gt;&amp;#34;; } In fact, before these languages introduced something called a for each loop, that was also the clunky way you&amp;rsquo;d loop through items in a sequence.</description>
+    </item>
+    <item>
+      <title>Running Code</title>
+      <link>https://pythonianrocketship.github.io/en/01-introduction/02-requirements/05-vs-code/05-running-code/</link>
+      <pubDate>Sun, 10 Feb 2019 18:14:45 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/01-introduction/02-requirements/05-vs-code/05-running-code/</guid>
+      <description>VS Code provides a built in terminal that allows us to easily run our programs. We&amp;rsquo;ll mostly be working with Python program files at the end of Day 1, and for most of Day 2.&#xA;Creating Python Files with the *.py extension You know a file is a Python program when it ends with a .py extension.&#xA;Creating New Python Files To create a new file in VS Code, hit Ctrl+N on Windows and Linux, and ⌘N (command + N) on Mac OS.</description>
+    </item>
+    <item>
+      <title>Inheritance</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/30-oop-classes-inheritance/70-inheritance/</link>
+      <pubDate>Sun, 10 Mar 2019 19:29:19 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/30-oop-classes-inheritance/70-inheritance/</guid>
+      <description>Class inheritance is a very useful Object-oriented Programming construct for sharing and reusing code. Inheritance makes it possible to break up and organize your code into a hierarchy, from generic to specific. Objects that belong to classes that are higher up in the hierarchy (more generic) are accessible by subclasses, but not vice versa.&#xA;Earlier, we saw that bool is a subclass of int, thus, it inherited the properties and methods of the int class, and then extended it to be more specific to booleans.</description>
+    </item>
+    <item>
+      <title>Best Practices</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/40-exceptions/70-best-practices/</link>
+      <pubDate>Sun, 10 Mar 2019 19:15:44 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/40-exceptions/70-best-practices/</guid>
+      <description>Catch More Specific Exceptions First Remember, your except handlers are evaluated in order, so be sure to put more specific exceptions first. For example:&#xA;&amp;gt;&amp;gt;&amp;gt; try: ... my_value = 3.14 / 0 ... except ArithmeticError: ... print(&amp;#34;We had a general math error&amp;#34;) ... except ZeroDivisionEror: ... print(&amp;#34;We had a divide-by-zero error&amp;#34;) ... We had a general math error When we tried to divide by zero, we inadvertently raised a ZeroDivisionError. However, because ZeroDivisionError is a subclass of ArithmeticError, and except ArithemticError came first, the information about our specific error was swallowed by the except ArithemticError handler, and we lost more detailed information about our error.</description>
+    </item>
+    <item>
+      <title>The zip function</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/20-advanced-looping/70-zip/</link>
+      <pubDate>Sun, 03 Mar 2019 18:03:03 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/20-advanced-looping/70-zip/</guid>
+      <description>It&amp;rsquo;s often necessary to iterate over multiple lists simultaneously. Suppose we&amp;rsquo;re keeping score of a game and we have two lists, one for names and one for scores:&#xA;&amp;gt;&amp;gt;&amp;gt; names = [&amp;#34;Bob&amp;#34;, &amp;#34;Alice&amp;#34;, &amp;#34;Eve&amp;#34;] &amp;gt;&amp;gt;&amp;gt; scores = [42, 97, 68] The zip function takes any number of iterable arguments and steps through all of them at the same time until the end of the shortest iterable has been reached:&#xA;&amp;gt;&amp;gt;&amp;gt; for name, score in zip(names, scores): &amp;gt;&amp;gt;&amp;gt; print(f&amp;#34;{name} had a score of {score}.</description>
+    </item>
+    <item>
+      <title>Custom Exceptions</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/40-exceptions/90-custom-exceptions/</link>
+      <pubDate>Sun, 10 Mar 2019 19:16:01 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/40-exceptions/90-custom-exceptions/</guid>
+      <description>As we mentioned, exceptions are just regular classes that inherit from the Exception class. This makes it super easy to create our own custom exceptions, which can make our programs easier to follow and more readable. An exception need not be complicated, just inherit from Exception:&#xA;&amp;gt;&amp;gt;&amp;gt; class MyCustomException(Exception): ... pass ... &amp;gt;&amp;gt;&amp;gt; raise MyCustomException() Traceback (most recent call last): File &amp;#34;&amp;lt;stdin&amp;gt;&amp;#34;, line 1, in &amp;lt;module&amp;gt; __main__.MyCustomException It&amp;rsquo;s OK to have a custom Exception subclass that only pass-es - your exception doesn&amp;rsquo;t need to do anything fancy to be useful.</description>
+    </item>
+    <item>
+      <title>Practice</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/20-advanced-looping/90-exercise/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/20-advanced-looping/90-exercise/</guid>
+      <description>Comprehensions Let&amp;rsquo;s practice our comprehensions. Create a list of only odd numbers between 0 and 100 using a list comprehension. Then, use a comprehension to create a dictionary where the keys are the even numbers from your list, and the values are random integers between 0 and 100 (hint: try random.randint(min, max)). Finally, use a comprehension to create a set of every unique value from the above dictionary.&#xA;&amp;gt;&amp;gt;&amp;gt; my_list = [num for num in range(0, 100) if num % 2 == 0] &amp;gt;&amp;gt;&amp;gt; print(my_list) &amp;gt;&amp;gt;&amp;gt; import random &amp;gt;&amp;gt;&amp;gt; my_dict = {num:random.</description>
+    </item>
+    <item>
+      <title>Practice</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/40-exceptions/99-exercise/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/40-exceptions/99-exercise/</guid>
+      <description>Syntax Errors Let&amp;rsquo;s get more comfortable with exceptions. First, you&amp;rsquo;ve probably seen this one already: The IndentationError.&#xA;&amp;gt;&amp;gt;&amp;gt; def my_function(): ... print(&amp;#34;Hello!&amp;#34;) File &amp;#34;&amp;lt;stdin&amp;gt;&amp;#34;, line 2 print(&amp;#34;Hello!&amp;#34;) ^ IndentationError: expected an indented block Notice that we started a new function scope with the def keyword, but didn&amp;rsquo;t indent the next line of the function, the print() argument.&#xA;You&amp;rsquo;ve probably also seen the more general SyntaxError. This one&amp;rsquo;s probably obvious - something is misspelled, or the syntax is otherwise wrong.</description>
+    </item>
+    <item>
+      <title>Practice</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/10-introduction/15-converting-between-types/10-exercise/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/10-introduction/15-converting-between-types/10-exercise/</guid>
+      <description>Converting Between Types Converting between types in Python is one of the most powerful language features.&#xA;You can quickly convert between strings, numbers, and various data-types to supercharge quickly solving problems. You can even use powerful data structures like sets to your advantage.&#xA;Converting Between Numbers and Strings Converting between numbers and strings is easy with str() and int():&#xA;&amp;gt;&amp;gt;&amp;gt; my_string = str(100) &amp;gt;&amp;gt;&amp;gt; my_string &amp;gt;&amp;gt;&amp;gt; type(my_string) &amp;gt;&amp;gt;&amp;gt; my_int = int(my_string) &amp;gt;&amp;gt;&amp;gt; my_int &amp;gt;&amp;gt;&amp;gt; type(my_int) You can also use float() to convert strings into floating point numbers:</description>
+    </item>
+    <item>
+      <title>Lists, Part 1</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/080-advanced-datatypes/10-lists/</link>
+      <pubDate>Sun, 10 Feb 2019 18:20:32 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/080-advanced-datatypes/10-lists/</guid>
+      <description>Lists are one of the most powerful data types in Python. Generally, they&amp;rsquo;re container objects used to store related items together.&#xA;list cheat sheet type list use Used for storing similar items, and in cases where items need to be added or removed. creation [] or list() for empty list, or [1, 2, 3] for a list with items. search methods my_list.index(item) or item in my_list search speed Searching in an item in a large list is slow.</description>
+    </item>
+    <item>
+      <title>if, else, elif</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/110-control-statements-looping/10-if-else-elif/</link>
+      <pubDate>Sun, 10 Feb 2019 18:20:07 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/110-control-statements-looping/10-if-else-elif/</guid>
+      <description>The if Statement and Conditionals if in Python means: only run the rest of this code once, if the condition evaluates to True. Don&amp;rsquo;t run the rest of the code at all if it&amp;rsquo;s not.&#xA;Anatomy of an if statement: Start with the if keyword, followed by a boolean value, an expression that evaluates to True, or a value with &amp;ldquo;Truthiness&amp;rdquo;. Add a colon :, a new line, and write the code that will run if the statement is True under a level of indentation.</description>
+    </item>
+    <item>
+      <title>Truthiness</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/090-boolean-logic/10-truthiness/</link>
+      <pubDate>Sun, 10 Feb 2019 18:17:39 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/090-boolean-logic/10-truthiness/</guid>
+      <description>Evaluating expression to be True or False will help us control the flow of our program.&#xA;cheat sheet type truthiness int 0 is False, all other numbers are True (including negative) containers - list, tuple, set, dict empty container evaluates to False, container with items evaluates to True) None False We talked about boolean types, True and False earlier. True and False are keywords in Python, so make sure you don&amp;rsquo;t name your variables the same thing.</description>
+    </item>
+    <item>
+      <title>How To Run Them</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/175-running-code/10-running-python-programs/</link>
+      <pubDate>Sun, 10 Feb 2019 18:17:06 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/175-running-code/10-running-python-programs/</guid>
+      <description>Creating Python Files with the *.py extension You know a file is a Python program when it ends with a .py extension.&#xA;Naming Tips Just like with formatting, Python&amp;rsquo;s PEP8 guidelines give us a few helpful tips about how to name our Python program files.&#xA;ℹ️ In Python:&#xA;Filenames should be *all lowercase Words should be separated with underscores _ Filenames should be short ✅ Some good example filenames:&#xA;apis.py exceptions.</description>
+    </item>
+    <item>
+      <title>Defining Functions</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/060-functions/10-defining-functions/</link>
+      <pubDate>Sun, 10 Feb 2019 18:16:01 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/060-functions/10-defining-functions/</guid>
+      <description>The purpose of functions in Python are to create reusable code. If we find ourselves copying and pasting the same code multiple times, that&amp;rsquo;s a good sign that a function might help!&#xA;Anatomy of a function This is the recipe for defining a Python function:&#xA;def: the def keyword, telling Python we&amp;rsquo;re about to start a function definition a name for the function (: opening parenthesis (optional) the names of one or more arguments, separated with , (optional) the names and values of one or more default arguments, separated with (,) note: we&amp;rsquo;ll see these in the next section ) closing parenthesis : a colon A function in Python is defined with the def keyword, followed by the function names, zero or more argument names contained in parenthesis (), and a colon : to indicate the start of the function.</description>
+    </item>
+    <item>
+      <title>Practice</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/020-basic-data-types/10-exercise/</link>
+      <pubDate>Mon, 04 Feb 2019 15:28:32 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/020-basic-data-types/10-exercise/</guid>
+      <description>Basic Data Types, Strings and Numbers Types List the type of the following variables using the type() function.&#xA;&amp;gt;&amp;gt;&amp;gt; x = 42 &amp;gt;&amp;gt;&amp;gt; y = 3 / 4 &amp;gt;&amp;gt;&amp;gt; z = int(&amp;#39;7&amp;#39;) &amp;gt;&amp;gt;&amp;gt; a = float(5) &amp;gt;&amp;gt;&amp;gt; name = &amp;#34;Nina&amp;#34; Numbers Calculate the amount of rent you pay daily, by taking your monthly rent and diving it by 30.&#xA;&amp;gt;&amp;gt;&amp;gt; rent = 480 &amp;gt;&amp;gt;&amp;gt; per_day = rent / 30 &amp;gt;&amp;gt;&amp;gt; print(per_day) 16.</description>
+    </item>
+    <item>
+      <title>Practice</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/30-oop-classes-inheritance/90-exercise/</link>
+      <pubDate>Fri, 25 Jan 2019 15:07:04 -0600</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/30-oop-classes-inheritance/90-exercise/</guid>
+      <description>classes and self Let&amp;rsquo;s practice making a simple class. Open a new file and save it as class_example.py, we&amp;rsquo;ll be running this from the command line rather than the REPL. Pass in several variables and save them to the instance by using self:&#xA;class Vehicle: def __init__(self, make, model, fuel=&amp;#34;gas&amp;#34;): self.make = make self.model = model self.fuel = fuel daily_driver = Vehicle(&amp;#34;Subaru&amp;#34;, &amp;#34;Crosstrek&amp;#34;) # By default, this is how python represents our object: print(daily_driver) # The variables we saved to the instance are available like this: print(f&amp;#34;I drive a {daily_driver.</description>
+    </item>
+    <item>
+      <title>Practice</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/50-libraries-modules/90-exercise/</link>
+      <pubDate>Fri, 25 Jan 2019 15:07:04 -0600</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/50-libraries-modules/90-exercise/</guid>
+      <description>The Standard Library The Python standard library has a huge number of packages - no matter what you want to do, there&amp;rsquo;s probably a package included. Let&amp;rsquo;s practice using some of the more common ones. Create a new file and use the os module to see if you can get a file listing for the folder your new file is in.&#xA;import os my_folder = os.getcwd() print(f&amp;#34;Here are the files in {my_folder}:&amp;#34;) with os.</description>
+    </item>
+    <item>
+      <title>Practice</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/70-tests/90-exercise/</link>
+      <pubDate>Fri, 25 Jan 2019 15:07:04 -0600</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/70-tests/90-exercise/</guid>
+      <description>Tests Python comes with a very easy-to-use unittest library built in. Write a simple function that accepts two numbers, and returns True if the first number is evenly divisible by the second.&#xA;def divisible_by(check_number, divisor): return check_number % divisor == 0 Save your file as divisible.py. In a second file called test_divisible.py, create a TestCase using the unittest framework and use asserts to verify that the divisible_by()function returns the correct result.</description>
+    </item>
+    <item>
+      <title>Lists, Part 2</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/080-advanced-datatypes/20-adding-removing-finding/</link>
+      <pubDate>Sun, 03 Mar 2019 17:22:06 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/080-advanced-datatypes/20-adding-removing-finding/</guid>
+      <description>Adding, Removing, Changing, and Finding Items in lists cheat sheet action method returns possible errors check length len(my_list) int add: to the end my_list.append(item) - insert: at position my_list.insert(pos, item) - update: at position my_list[pos] = item - - IndexError if pos is &amp;gt;= len(my_list) extend: add items from another list my_list.extend(other_list) - is item in list? item in my_list True or False index of item my_list.index(item) int ValueError if item is not in my_list count of item my_list.</description>
+    </item>
+    <item>
+      <title>Comparisons</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/090-boolean-logic/20-comparisons/</link>
+      <pubDate>Sun, 10 Feb 2019 18:18:14 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/090-boolean-logic/20-comparisons/</guid>
+      <description>How can we compare different values with each other?&#xA;Order Comparisons Cheat Sheet Operator Means &amp;lt; less-than &amp;lt;= less-than-or-equal-to &amp;gt; greater-than &amp;gt;= greater-than-or-equal-to In Python, comparing numbers is pretty straight forward.&#xA;&amp;gt;&amp;gt;&amp;gt; 1 &amp;lt; 10 # 1 is less than 10? True True &amp;gt;&amp;gt;&amp;gt; 20 &amp;lt;= 20 # 20 is less than or equal to 20? True True &amp;gt;&amp;gt;&amp;gt; 10 &amp;gt; 1 # 10 is greater than 1? True True &amp;gt;&amp;gt;&amp;gt; -1 &amp;gt; 1 # -1 is greater than 1?</description>
+    </item>
+    <item>
+      <title>Printing Tips</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/175-running-code/20-print-tips/</link>
+      <pubDate>Sun, 10 Feb 2019 18:13:59 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/175-running-code/20-print-tips/</guid>
+      <description>One of the nice things about the REPL is we can quickly and easily see the contents of our variables, just by typing their name and pressing enter. Unfortunately, running code from Python files doesn&amp;rsquo;t do quite the same thing.&#xA;In a file named name.py:&#xA;# file name.py name = &amp;#34;Nina&amp;#34; name Output:&#xA;(env) $ python name.py Notice, there was no output.&#xA;Now, in a file named print_name.py:&#xA;# file print_name.</description>
+    </item>
+    <item>
+      <title>while loops</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/110-control-statements-looping/30-while-loops/</link>
+      <pubDate>Sun, 10 Feb 2019 18:22:01 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/110-control-statements-looping/30-while-loops/</guid>
+      <description>while loops are a special type of loop in Python. Instead of running just once when a condition is met, like an if statement, they run forever until a condition is no longer met.&#xA;while loops usually need to be accompanied by an always changing sentinel value.&#xA;&amp;gt;&amp;gt;&amp;gt; counter = 0 &amp;gt;&amp;gt;&amp;gt; max = 4 &amp;gt;&amp;gt;&amp;gt; &amp;gt;&amp;gt;&amp;gt; while counter &amp;lt; max: ... print(f&amp;#34;The count is: {counter}&amp;#34;) ... counter = counter + 1 .</description>
+    </item>
+    <item>
+      <title>Tuples</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/080-advanced-datatypes/30-tuples/</link>
+      <pubDate>Sun, 10 Feb 2019 18:20:45 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/080-advanced-datatypes/30-tuples/</guid>
+      <description>Tuples are light-weight collections used to keep track of related, but different items. Tuples are immutable, meaning that once a tuple has been created, the items in it can&amp;rsquo;t change.&#xA;You might ask, why tuples when Python already has lists? Tuples are different in a few ways. While lists are generally used to store collections of similar items together, tuples, by contrast, can be used to contain a snapshot of data.</description>
+    </item>
+    <item>
+      <title>and, or, not</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/090-boolean-logic/30-and-or-not/</link>
+      <pubDate>Sun, 10 Feb 2019 18:17:45 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/090-boolean-logic/30-and-or-not/</guid>
+      <description>and, or, and not are the three basic types of boolean operators that are present in math, programming, and database logic.&#xA;In other programming languages, you might have seen the concept of and represented with &amp;amp;&amp;amp;, or, represented with ||, and not represented by !. The Python language is instead focused on readability. So we&amp;rsquo;ll use the english and instead of trying to remember fancy symbols. Python still uses the &amp;amp;, | and !</description>
+    </item>
+    <item>
+      <title>The main Method</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/175-running-code/30-the-main-method/</link>
+      <pubDate>Sun, 10 Feb 2019 18:16:47 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/175-running-code/30-the-main-method/</guid>
+      <description>Once you start writing more comprehensive Python programs, you&amp;rsquo;ll want to include a main method in your code.&#xA;The purpose of checking for the main method is to make sure that the code in your main method is only run when it&amp;rsquo;s executed as a stand-alone program. Because of how Python&amp;rsquo;s import system works, if someone else imports your Python program, any code in it is executed on import.&#xA;We&amp;rsquo;ll talk more about imports and modules on day two, but let&amp;rsquo;s look at a quick example.</description>
+    </item>
+    <item>
+      <title>Function Arguments</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/060-functions/30-function-arguments/</link>
+      <pubDate>Sun, 10 Feb 2019 18:16:14 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/060-functions/30-function-arguments/</guid>
+      <description>Arguments in Practice Positional arguments are required Positional arguments are all required, and must be given in the order they are declared.&#xA;For example, this function doesn&amp;rsquo;t do what we expected, because we passed in our arguments in the wrong order.&#xA;In the REPL:&#xA;&amp;gt;&amp;gt;&amp;gt; def say_greeting(name, greeting): ... print(f&amp;#34;{greeting}, {name}.&amp;#34;) ... &amp;gt;&amp;gt;&amp;gt; say_greeting(&amp;#34;Hello!&amp;#34;, &amp;#34;Nina&amp;#34;) Nina, Hello!. Keyword arguments with default values Functions can accept two types of named arguments, ones without default values, and ones with default values.</description>
+    </item>
+    <item>
+      <title>break, continue, and return</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/110-control-statements-looping/40-break-continue/</link>
+      <pubDate>Sun, 03 Mar 2019 16:05:01 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/110-control-statements-looping/40-break-continue/</guid>
+      <description>break and continue allow you to control the flow of your loops. They&amp;rsquo;re a concept that beginners to Python tend to misunderstand, so pay careful attention.&#xA;Using break The break statement will completely break out of the current loop, meaning it won&amp;rsquo;t run any more of the statements contained inside of it.&#xA;&amp;gt;&amp;gt;&amp;gt; names = [&amp;#34;Rose&amp;#34;, &amp;#34;Max&amp;#34;, &amp;#34;Nina&amp;#34;, &amp;#34;Phillip&amp;#34;] &amp;gt;&amp;gt;&amp;gt; for name in names: ... print(f&amp;#34;Hello, {name}&amp;#34;) ... if name == &amp;#34;Nina&amp;#34;: .</description>
+    </item>
+    <item>
+      <title>Practice</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/090-boolean-logic/40-exercise/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/090-boolean-logic/40-exercise/</guid>
+      <description>Boolean Logic Comparisons Let&amp;rsquo;s practice using our comparison operators. Remember:&#xA;Operator Means &amp;lt; less-than &amp;lt;= less-than-or-equal-to &amp;gt; greater-than &amp;gt;= greater-than-or-equal-to == equals != not-equals Remember, the first six operators test the object&amp;rsquo;s value. is and is not test whether two objects are the same thing. This is useful for singletons, such as None or False. We won&amp;rsquo;t be using them much in this intro course, but feel free to play with them.</description>
+    </item>
+    <item>
+      <title>Function Scope</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/060-functions/40-scope/</link>
+      <pubDate>Sun, 10 Feb 2019 18:30:11 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/060-functions/40-scope/</guid>
+      <description>Scope inside a function Inside of a function in Python, the scope changes.&#xA;Think about it this way: scoping in Python happens with whitespace. When we delineate the code a function contains by indenting it under a function definition, it&amp;rsquo;s scope changes to a new internal scope. It has access to the variables defined outside of it, but it can&amp;rsquo;t change them.&#xA;Once the function is done running, its scope goes away, as do its defined variables.</description>
+    </item>
+    <item>
+      <title>Practice</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/110-control-statements-looping/50-exercise/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/110-control-statements-looping/50-exercise/</guid>
+      <description>Control statements and looping if, else, and elif Let&amp;rsquo;s practice our branching statements. Remember that elif (short for else if) is an optional branch that will let you add another if test, and else is an optional branch that will catch anything not previously caught by if or elif.&#xA;&amp;gt;&amp;gt;&amp;gt; def test_number(number): ... if number &amp;lt; 100: ... print(&amp;#34;This is a pretty small number&amp;#34;) ... elif number == 100: ... print(&amp;#34;This number is alright&amp;#34;) .</description>
+    </item>
+    <item>
+      <title>Practice</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/060-functions/50-exercise/</link>
+      <pubDate>Sat, 02 Mar 2019 00:00:00 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/060-functions/50-exercise/</guid>
+      <description>Functions Let&amp;rsquo;s try creating a basic function. Use tab to indent the second line, and press enter on an empty line to finish the function.&#xA;&amp;gt;&amp;gt;&amp;gt; def add_numbers(x, y): ... return x + y ... # Press Enter Now let&amp;rsquo;s try our new function. Type this into your REPL:&#xA;&amp;gt;&amp;gt;&amp;gt; add_numbers(1, 2) # Let&amp;#39;s use the string formatting we learned in the last chapter &amp;gt;&amp;gt;&amp;gt; print(f&amp;#34;The sum of 1 and 2 is {add_numbers(1, 2)}&amp;#34;) Here&amp;#39;s what you should have seen in your REPL: &amp;gt;&amp;gt;&amp;gt; add_numbers(1, 2) 3 # Let&amp;#39;s use the string formatting we learned in the last chapter &amp;gt;&amp;gt;&amp;gt; print(f&amp;#34;The sum of 1 and 2 is {add_numbers(1, 2)}&amp;#34;) The sum of 1 and 2 is 3 The Importance of Whitespace Here&amp;rsquo;s an error that you&amp;rsquo;ll become very familiar with during your career as a Pythonista, the IndentationError.</description>
+    </item>
+    <item>
+      <title>Sets</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/080-advanced-datatypes/50-sets/</link>
+      <pubDate>Sun, 10 Feb 2019 18:20:42 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/080-advanced-datatypes/50-sets/</guid>
+      <description>Sets are a datatype that allows you to store other immutable types in an unsorted way. An item can only be contained in a set once. There are no duplicates allowed. The benefits of a set are: very fast membership testing along with being able to use powerful set operations, like union, difference, and intersection.&#xA;set cheat sheet type set use Used for storing immutable data types uniquely. Easy to compare the items in sets.</description>
+    </item>
+    <item>
+      <title>Exceptions and Tracebacks</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/175-running-code/50-exceptions/</link>
+      <pubDate>Fri, 25 Jan 2019 15:03:40 -0600</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/175-running-code/50-exceptions/</guid>
+      <description>We talked about how to read the traceback you see if an error occurs in a Python program earlier in the day, but let&amp;rsquo;s talk about what we can do about it.&#xA;Uncaught Exceptions Exit Our Program Let&amp;rsquo;s make a file called exceptions.py:&#xA;# this will throw an exception! int(&amp;#34;a&amp;#34;) print(&amp;#34;End of the program.&amp;#34;) And run it:&#xA;(env) $ python exceptions.py Traceback (most recent call last): File &amp;#34;/Users/nina/projects/2019-fem-python/python/content/02-introduction-to-python/175-running-code/code/exceptions.py&amp;#34;, line 2, in &amp;lt;module&amp;gt; int(&amp;#34;a&amp;#34;) ValueError: invalid literal for int() with base 10: &amp;#39;a&amp;#39; We&amp;rsquo;ll see that &amp;ldquo;Reached end of the program&amp;rdquo; was never printed out.</description>
+    </item>
+    <item>
+      <title>Dictionaries</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/080-advanced-datatypes/60-dictionaries/</link>
+      <pubDate>Sun, 10 Feb 2019 18:20:37 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/080-advanced-datatypes/60-dictionaries/</guid>
+      <description>Dictionaries are a useful type that allow us to store our data in key, value pairs. Dictionaries themselves are mutable, but, dictionary keys can only be immutable types.&#xA;We use dictionaries when we want to be able to quickly access additional data associated with a particular key. A great practical application for dictionaries is memoization. Let&amp;rsquo;s say you want to save computing power, and store the result for a function called with particular arguments.</description>
+    </item>
+    <item>
+      <title>Working With Files</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/175-running-code/60-working-with-files/</link>
+      <pubDate>Fri, 25 Jan 2019 15:06:17 -0600</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/175-running-code/60-working-with-files/</guid>
+      <description>Python provides a built-in function for opening files, cleverly titled open(). The open() method will return an object that you can read() to get the data. By default, open() will open a file in read-only mode, however you can change this by passing a mode parameter. The list of optional modes is here:&#xA;Character Meaning &amp;lsquo;r&amp;rsquo; open for reading (default) &amp;lsquo;w&amp;rsquo; open for writing, truncating the file first &amp;lsquo;x&amp;rsquo; open for exclusive creation, failing if the file already exists &amp;lsquo;a&amp;rsquo; open for writing, appending to the end of the file if it exists &amp;lsquo;b&amp;rsquo; binary mode &amp;rsquo;t&#39; text mode (default) &amp;lsquo;+&amp;rsquo; open a disk file for updating (reading and writing) Opening a file would look something like this:</description>
+    </item>
+    <item>
+      <title>Mutability Cheat Sheet</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/080-advanced-datatypes/65-mutability/</link>
+      <pubDate>Sun, 03 Mar 2019 13:06:52 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/080-advanced-datatypes/65-mutability/</guid>
+      <description>Mutability Mutability, simply put: the contents of a mutable object can be changed, while the contents of an immutable object cannot be.&#xA;Simple Types All of the simple data types we covered first are immutable&#xA;type use mutable? int, float, decimal store numbers no str store strings no bool store True or False no Container Types For the mutability of the container types we covered in this chapter, check this helpful list:</description>
+    </item>
+    <item>
+      <title>Working with Libraries</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/175-running-code/65-libraries/</link>
+      <pubDate>Fri, 25 Jan 2019 15:06:06 -0600</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/175-running-code/65-libraries/</guid>
+      <description>Working with external libraries in Python makes use of the import keyword. While this can go anywhere in your file, it&amp;rsquo;s almost always best to import libraries at the top of each file where they&amp;rsquo;re used. For example, in the last section, we were able to call upon the built-in json library by calling import json at the top of our code.&#xA;Importing modules with the import keyword is usually the best method, because it preserves the module&amp;rsquo;s namespace.</description>
+    </item>
+    <item>
+      <title>Practice</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/175-running-code/70-exercise/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/175-running-code/70-exercise/</guid>
+      <description>Running Code Let&amp;rsquo;s create a basic program that we can run as a file on the command line. We&amp;rsquo;ll start with a basic framework using a main() function.&#xA;def main(): pass if __name__ == &amp;#34;__main__&amp;#34;: main() Save your file as file_exercise.py and run it from the command line using python file_exercise.py. Note: we are concentrating on Python 3 for this class, so if you have Python 2 installed, you may need to explicitly use python3 file_exercise.</description>
+    </item>
+    <item>
+      <title>Practice</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/080-advanced-datatypes/70-exercise/</link>
+      <pubDate>Mon, 04 Feb 2019 15:28:32 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/080-advanced-datatypes/70-exercise/</guid>
+      <description>Lists, Dictionaries, Tuples, and Sets Lists Lists are great for storing an ordered sequence of objects. Remember that you can see the current state of your list at any time by typing the name of your list by itself. Check your list after every operation to see if it has changed.&#xA;&amp;gt;&amp;gt;&amp;gt; my_list = [&amp;#34;h&amp;#34;, &amp;#34;e&amp;#34;, &amp;#34;l&amp;#34;, &amp;#34;l&amp;#34;, &amp;#34;o&amp;#34;] # Let&amp;#39;s look at our list: &amp;gt;&amp;gt;&amp;gt; my_list # Let&amp;#39;s add to my_list: &amp;gt;&amp;gt;&amp;gt; my_list.</description>
+    </item>
+    <item>
+      <title>Practice</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/190-apis/final-exercise/</link>
+      <pubDate>Fri, 25 Jan 2019 15:07:04 -0600</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/190-apis/final-exercise/</guid>
+      <description>Let&amp;rsquo;s review what we learned today and put it all together.&#xA;For the final exercise of today, we&amp;rsquo;re going to write a small program that requests the top repositories from GitHub, ordered by the number of stars each repository has, then we&amp;rsquo;re going to print the results to our terminal. Create a new file called day_one.py.&#xA;You may need to install the requests library using python -m pip install requests. You may see pip used directly, but using python -m pip is recommended by Python.</description>
+    </item>
+    <item>
+      <title>Practice</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/60-command-line-tools/90-exercise/</link>
+      <pubDate>Fri, 25 Jan 2019 15:07:04 -0600</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/60-command-line-tools/90-exercise/</guid>
+      <description>Accepting User Input with Args To accept basic arguments from the command line, we can use sys.argv. Start a new Python file called cli_exercise.py and enter the following.&#xA;import sys args = sys.argv print(args) Then, run it from the command line:&#xA;(env) $ python cli_exercise.py Here&amp;#39;s what you should have seen on your command line: (env) $ python cli_exercise.py [&amp;#39;cli_exercise.py&amp;#39;] You should see a list with one item: the name of your program.</description>
+    </item>
+    <item>
+      <title>Practice</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/80-web-frameworks/final-exercise/</link>
+      <pubDate>Fri, 25 Jan 2019 15:07:04 -0600</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/80-web-frameworks/final-exercise/</guid>
+      <description>Installing Requirements Our web application has two required external libraries, flask, and requests. As our list of dependencies becomes more complicated, we want to list them in a file called requirements.txt and include it with our project. That way, our code can be reused by others.&#xA;Open and look at the requirements.txt file. The name of each dependency is on a new line.&#xA;As you advance in your Python journey, you can use the more advanced pipenv tool to handle complicated dependencies.</description>
+    </item>
+    <item>
+      <title>Wrapping Up</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/200-conclusion/00-wrapping-up/</link>
+      <pubDate>Sun, 10 Feb 2019 18:39:32 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/200-conclusion/00-wrapping-up/</guid>
+      <description>Today you&amp;rsquo;ve gotten a whirlwind tour of the Python programming language.&#xA;During Day 2, we&amp;rsquo;re going to put our knowledge to work writing real programs.&#xA;Source Control I highly recommend that you use source control while working on your Python projects. GitHub is a popular and free option.&#xA;Source control lets you track changes to your project. You can use that to your advantage to commit early and often and track changes to your project.</description>
+    </item>
+    <item>
+      <title>Credits</title>
+      <link>https://pythonianrocketship.github.io/en/credits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/credits/</guid>
+      <description>Themes Special thanks to the hugo learn theme. Tooling Hugo Other Pixel Art CSS Styles For Final Exercise Buttons Checkboxes Tables Error Page Special thanks to my ❤️ Max for moral support while I worked on this class. </description>
+    </item>
+  </channel>
+</rss>

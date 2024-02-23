@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tests on Learn Python by Touhidul Alam Seyam</title>
+    <link>https://pythonianrocketship.github.io/en/03-intermediate-python/70-tests/</link>
+    <description>Recent content in Tests on Learn Python by Touhidul Alam Seyam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 10 Mar 2019 19:30:41 -0700</lastBuildDate>
+    <atom:link href="https://pythonianrocketship.github.io/en/03-intermediate-python/70-tests/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Concept</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/70-tests/10-concept/</link>
+      <pubDate>Sun, 10 Mar 2019 19:30:29 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/70-tests/10-concept/</guid>
+      <description>Unit testing is a software testing method by which individual functions are tested in an automated fashion to determine if they are fit for use. Automated unit testing not only helps you discover and fix bugs quicker and easier than if you weren&amp;rsquo;t testing, but by writing them alongside or even before your functions, they can help you write cleaner and more bug-free code from the very start.&#xA;Types of Tests There are several different kinds of automated tests that can be performed at different abstraction levels.</description>
+    </item>
+    <item>
+      <title>Assertions</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/70-tests/30-assertions/</link>
+      <pubDate>Sun, 10 Mar 2019 19:30:41 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/70-tests/30-assertions/</guid>
+      <description>Python comes with a handy-dandy assert keyword that you can use for simple sanity checks. An assertion is simply a boolean expression that checks if its conditions return true or not. If the assertion is true, the program continues. If it&amp;rsquo;s false, it throws an AssertionError, and your program will stop. Assertions are also a great debugging tool, as they can stop your program in exactly the spot where an error has occurred.</description>
+    </item>
+    <item>
+      <title>Writing Tests</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/70-tests/50-writing-tests/</link>
+      <pubDate>Sun, 10 Mar 2019 19:30:36 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/70-tests/50-writing-tests/</guid>
+      <description>There are a few different frameworks for writing unit tests in Python, but they&amp;rsquo;re all very similar. We&amp;rsquo;ll focus on the built-in unittest library. unittest is both a framework for writing tests, as well as a test runner, meaning it can execute your tests and return the results. In order to write unittest tests, you must:&#xA;Write your tests as methods within classes Use a series of built-in assertion methods Let&amp;rsquo;s start with a simple function to test, multiply(), which takes two numbers and multiplies them.</description>
+    </item>
+    <item>
+      <title>Practice</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/70-tests/90-exercise/</link>
+      <pubDate>Fri, 25 Jan 2019 15:07:04 -0600</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/70-tests/90-exercise/</guid>
+      <description>Tests Python comes with a very easy-to-use unittest library built in. Write a simple function that accepts two numbers, and returns True if the first number is evenly divisible by the second.&#xA;def divisible_by(check_number, divisor): return check_number % divisor == 0 Save your file as divisible.py. In a second file called test_divisible.py, create a TestCase using the unittest framework and use asserts to verify that the divisible_by()function returns the correct result.</description>
+    </item>
+  </channel>
+</rss>

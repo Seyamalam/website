@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Basic Data Types on Learn Python by Touhidul Alam Seyam</title>
+    <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/020-basic-data-types/</link>
+    <description>Recent content in Basic Data Types on Learn Python by Touhidul Alam Seyam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 10 Feb 2019 18:33:43 -0800</lastBuildDate>
+    <atom:link href="https://pythonianrocketship.github.io/en/02-introduction-to-python/020-basic-data-types/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Variables and Types</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/020-basic-data-types/00-variables/</link>
+      <pubDate>Sun, 03 Feb 2019 23:26:13 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/020-basic-data-types/00-variables/</guid>
+      <description>Naming Variables Python variables can&amp;rsquo;t start with a number. In general, they&amp;rsquo;re named all lower case, separated by underscores. Unlike other languages, that name their variables with camelCase.&#xA;You don&amp;rsquo;t want to name your variables the same as the types that we&amp;rsquo;ll be working with. For example don&amp;rsquo;t name your variables int, list, dict. Etc.&#xA;Open The REPL Learn about variables by typing along in the Python REPL with me.</description>
+    </item>
+    <item>
+      <title>Numbers</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/020-basic-data-types/02-numbers/</link>
+      <pubDate>Sun, 03 Feb 2019 23:14:25 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/020-basic-data-types/02-numbers/</guid>
+      <description>First, open up the REPL.&#xA;Remember, you&amp;rsquo;ll learn best if you type along with me.&#xA;There are three different types of numbers in Python: int for Integer, Float, and Complex.&#xA;# These are all integers x = 4 y = -193394 z = 0 # These are all floats x = 5.0 y = -3983.2 z = 0. # This is a complex number x = 42j In Python, Integers and other simple data types are just objects under the hood.</description>
+    </item>
+    <item>
+      <title>Strings</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/020-basic-data-types/03-strings/</link>
+      <pubDate>Sun, 03 Feb 2019 23:14:35 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/020-basic-data-types/03-strings/</guid>
+      <description>Representing Strings Strings in Python can be enclosed either with single quotes like &#39;hello&#39; or double quotes, like &amp;quot;hello&amp;quot;.&#xA;Strings can also be concatenated (added together) using the + operator to combine an arbitrary number of Strings. For example:&#xA;salutation = &amp;#34;Hello &amp;#34; name = &amp;#34;Nina&amp;#34; greeting = salutation + name # The value of greeting will be &amp;#34;Hello Nina&amp;#34; To use the same type of quote within a string, that quote needs to be escaped with a \ - backwards slash.</description>
+    </item>
+    <item>
+      <title>Common Mistakes</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/020-basic-data-types/05-common-string-and-number-errors/</link>
+      <pubDate>Sun, 10 Feb 2019 18:33:43 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/020-basic-data-types/05-common-string-and-number-errors/</guid>
+      <description>There are a few common errors that you&amp;rsquo;ll encounter when working with Strings and numbers. Remember, in Python program errors are called Exceptions. By going over what they are, you&amp;rsquo;ll be able to recognize them immediately.&#xA;Scenario 1: Mismatched string quotes Mismatched string quotes will result in a SyntaxError&#xA;When we try to start a String with one type of quote, and end with another, we&amp;rsquo;ll see a syntax error.</description>
+    </item>
+    <item>
+      <title>Practice</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/020-basic-data-types/10-exercise/</link>
+      <pubDate>Mon, 04 Feb 2019 15:28:32 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/020-basic-data-types/10-exercise/</guid>
+      <description>Basic Data Types, Strings and Numbers Types List the type of the following variables using the type() function.&#xA;&amp;gt;&amp;gt;&amp;gt; x = 42 &amp;gt;&amp;gt;&amp;gt; y = 3 / 4 &amp;gt;&amp;gt;&amp;gt; z = int(&amp;#39;7&amp;#39;) &amp;gt;&amp;gt;&amp;gt; a = float(5) &amp;gt;&amp;gt;&amp;gt; name = &amp;#34;Nina&amp;#34; Numbers Calculate the amount of rent you pay daily, by taking your monthly rent and diving it by 30.&#xA;&amp;gt;&amp;gt;&amp;gt; rent = 480 &amp;gt;&amp;gt;&amp;gt; per_day = rent / 30 &amp;gt;&amp;gt;&amp;gt; print(per_day) 16.</description>
+    </item>
+  </channel>
+</rss>

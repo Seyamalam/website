@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Libraries and Modules on Learn Python by Touhidul Alam Seyam</title>
+    <link>https://pythonianrocketship.github.io/en/03-intermediate-python/50-libraries-modules/</link>
+    <description>Recent content in Libraries and Modules on Learn Python by Touhidul Alam Seyam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 10 Mar 2019 19:17:03 -0700</lastBuildDate>
+    <atom:link href="https://pythonianrocketship.github.io/en/03-intermediate-python/50-libraries-modules/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Standard Library</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/50-libraries-modules/10-standard-library/</link>
+      <pubDate>Sun, 10 Mar 2019 19:16:56 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/50-libraries-modules/10-standard-library/</guid>
+      <description>Python has always had a &amp;ldquo;batteries included&amp;rdquo; philosophy - having a rich and versatile standard library which is immediately available, without making the user download separate packages. This is thought to have contributed to Python&amp;rsquo;s early success. No matter what you&amp;rsquo;re trying to accomplish, there&amp;rsquo;s probably a built-in library that can help you do what you want.&#xA;The downside to this is that the standard libraries need to maintain backwards compatibility.</description>
+    </item>
+    <item>
+      <title>Modules and Imports</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/50-libraries-modules/30-modules-and-imports/</link>
+      <pubDate>Sun, 10 Mar 2019 19:16:35 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/50-libraries-modules/30-modules-and-imports/</guid>
+      <description>Python has a simple package structure. Any directory with a file named __init__.py can be considered a Python module.&#xA;Note: a __init__.py file is no longer required for Python 3 modules, but it&amp;rsquo;s still supported and can be useful.&#xA;For example, let&amp;rsquo;s make a basic function and start a new module to house it:&#xA;def add_numbers(x, y): return x + y Let&amp;rsquo;s put our function in a file called __init__.py and place it in a folder called my_math_functions.</description>
+    </item>
+    <item>
+      <title>PyPI</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/50-libraries-modules/50-pypi/</link>
+      <pubDate>Sun, 10 Mar 2019 19:17:03 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/50-libraries-modules/50-pypi/</guid>
+      <description>PyPI (the Python Package Index) is an awesome service that helps you find and install software developed and shared by the Python community. Almost every user-contributed Python package has been published to PyPI. You can browse the site at pypi.org but most of the time you will probably interact with it through Python&amp;rsquo;s pip tool.&#xA;Basic Usage You can use the pip tool to install the latest version of a module and its dependencies from the Python Packaging Index:</description>
+    </item>
+    <item>
+      <title>Practice</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/50-libraries-modules/90-exercise/</link>
+      <pubDate>Fri, 25 Jan 2019 15:07:04 -0600</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/50-libraries-modules/90-exercise/</guid>
+      <description>The Standard Library The Python standard library has a huge number of packages - no matter what you want to do, there&amp;rsquo;s probably a package included. Let&amp;rsquo;s practice using some of the more common ones. Create a new file and use the os module to see if you can get a file listing for the folder your new file is in.&#xA;import os my_folder = os.getcwd() print(f&amp;#34;Here are the files in {my_folder}:&amp;#34;) with os.</description>
+    </item>
+  </channel>
+</rss>

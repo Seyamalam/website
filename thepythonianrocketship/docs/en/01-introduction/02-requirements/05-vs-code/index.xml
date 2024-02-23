@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Setting Up VS Code on Learn Python by Touhidul Alam Seyam</title>
+    <link>https://pythonianrocketship.github.io/en/01-introduction/02-requirements/05-vs-code/</link>
+    <description>Recent content in Setting Up VS Code on Learn Python by Touhidul Alam Seyam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 10 Feb 2019 18:14:45 -0800</lastBuildDate>
+    <atom:link href="https://pythonianrocketship.github.io/en/01-introduction/02-requirements/05-vs-code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started</title>
+      <link>https://pythonianrocketship.github.io/en/01-introduction/02-requirements/05-vs-code/01-getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/01-introduction/02-requirements/05-vs-code/01-getting-started/</guid>
+      <description>Visual Studio Code (commonly called VS Code) is a free, open source, lightweight cross platform code editor. A fresh installation is bare bones &amp;ndash; the power of VS Code comes via the extensions. There are useful extensions for every programming languages you can think of, but the choice of which ones to install and how to configure your editor is up to you.&#xA;Installation You should have installed the editor and the Python extension as part of the pre-requisites for the course.</description>
+    </item>
+    <item>
+      <title>Working With Python</title>
+      <link>https://pythonianrocketship.github.io/en/01-introduction/02-requirements/05-vs-code/03-working-with-python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/01-introduction/02-requirements/05-vs-code/03-working-with-python/</guid>
+      <description>Once we open our first Python file in VS Code, we&amp;rsquo;ll see some configuration pop-ups. For the time being, don&amp;rsquo;t dismiss them.&#xA;Configuring VS Code for Python Open the project.py file If you haven&amp;rsquo;t created a project.py file in the pyworkshop directory, now is the time to do so. You can make a new file (Ctrl+N or ⌘P) and then save it (Ctrl+S or ⌘S).&#xA;Now that you&amp;rsquo;ve learned the necessary keyboard shortcuts, use Quick Open with Ctrl+P or ⌘P to open the project.</description>
+    </item>
+    <item>
+      <title>Using The REPL</title>
+      <link>https://pythonianrocketship.github.io/en/01-introduction/02-requirements/05-vs-code/04-the-repl-in-vscode/</link>
+      <pubDate>Sun, 10 Feb 2019 18:11:15 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/01-introduction/02-requirements/05-vs-code/04-the-repl-in-vscode/</guid>
+      <description>The REPL REPL stands for Read, Evaluate, Print, Loop. The REPL is how you interact with the Python Interpreter.&#xA;Unlike running a file containing Python code, in the REPL you can type commands and instantly see the output printed out. You can also use the REPL to print out help for methods and objects in Python, list out what methods are available, and much more.&#xA;Open The REPL To start the REPL in VS code, open the command palette and search for and select &amp;ldquo;Start REPL&amp;rdquo;.</description>
+    </item>
+    <item>
+      <title>Running Code</title>
+      <link>https://pythonianrocketship.github.io/en/01-introduction/02-requirements/05-vs-code/05-running-code/</link>
+      <pubDate>Sun, 10 Feb 2019 18:14:45 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/01-introduction/02-requirements/05-vs-code/05-running-code/</guid>
+      <description>VS Code provides a built in terminal that allows us to easily run our programs. We&amp;rsquo;ll mostly be working with Python program files at the end of Day 1, and for most of Day 2.&#xA;Creating Python Files with the *.py extension You know a file is a Python program when it ends with a .py extension.&#xA;Creating New Python Files To create a new file in VS Code, hit Ctrl+N on Windows and Linux, and ⌘N (command + N) on Mac OS.</description>
+    </item>
+  </channel>
+</rss>

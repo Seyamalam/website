@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Course Introduction on Learn Python by Touhidul Alam Seyam</title>
+    <link>https://pythonianrocketship.github.io/en/01-introduction/</link>
+    <description>Recent content in Course Introduction on Learn Python by Touhidul Alam Seyam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 04 Feb 2019 00:13:49 -0800</lastBuildDate>
+    <atom:link href="https://pythonianrocketship.github.io/en/01-introduction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Your Instructor</title>
+      <link>https://pythonianrocketship.github.io/en/01-introduction/00-who/</link>
+      <pubDate>Thu, 24 Jan 2019 09:14:14 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/01-introduction/00-who/</guid>
+      <description>&amp;lt;a href=&amp;ldquo;https://twitter.com/nnja&#34; target=&amp;quot;_blank&amp;rdquo;&amp;quot;&amp;gt; @nnja Nina Zakharenko Hi, I&amp;rsquo;m Nina Zakharenko. I&amp;rsquo;m a Senior Cloud Developer Advocate at Microsoft, focusing on Python. Before Microsoft, I wrote code for other cool companies like Reddit, Meetup, and HBO. In my spare time I like drinking scotch and tinkering with wearable electronics. I enjoy hiking and snowboarding from my home base in Portland, Oregon. I change my hair color regularly.&#xA;I&amp;rsquo;ve been involved in the Python community for approximately 6 years.</description>
+    </item>
+    <item>
+      <title>Navigating The Course</title>
+      <link>https://pythonianrocketship.github.io/en/01-introduction/02-navigating-course/</link>
+      <pubDate>Mon, 04 Feb 2019 00:13:49 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/01-introduction/02-navigating-course/</guid>
+      <description>The course content is free and open source, and hosted on GitHub. A link will be available after the class so that edits can be suggested via Pull Requests.&#xA;Suggesting Changes to The Course Material If you notice a typo or any other issues with the material after the class, please open a pull request on GitHub by clicking the &amp;ldquo;Edit this page&amp;rdquo; button on the top right corner of every course page.</description>
+    </item>
+  </channel>
+</rss>

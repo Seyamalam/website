@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exceptions on Learn Python by Touhidul Alam Seyam</title>
+    <link>https://pythonianrocketship.github.io/en/03-intermediate-python/40-exceptions/</link>
+    <description>Recent content in Exceptions on Learn Python by Touhidul Alam Seyam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 10 Mar 2019 19:16:01 -0700</lastBuildDate>
+    <atom:link href="https://pythonianrocketship.github.io/en/03-intermediate-python/40-exceptions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>All About Exceptions</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/40-exceptions/10-all-about-exceptions/</link>
+      <pubDate>Sun, 10 Mar 2019 19:15:54 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/40-exceptions/10-all-about-exceptions/</guid>
+      <description>Built-in exceptions and easy exception handling is one of the shining features of Python. Technically, errors that happen during parsing are called SyntaxErrors - these will probably be the most common errors you see, and usually happen because of a mistake in whitespace, a syntax misunderstanding, or a simple typo.&#xA;Even if the syntax is correct, errors can still occur when your program is run. We call these Exceptions, and there a many different types (this is a good thing, because the more specifically we know what went wrong, the better we can handle it).</description>
+    </item>
+    <item>
+      <title>Try Except</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/40-exceptions/30-try-except-else-finally/</link>
+      <pubDate>Sun, 10 Mar 2019 19:15:54 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/40-exceptions/30-try-except-else-finally/</guid>
+      <description>Many languages have the concept of the &amp;ldquo;Try-Catch&amp;rdquo; block. Python uses four keywords: try, except, else, and finally. Code that can possibly throw an exception goes in the try block. except gets the code that runs if an exception is raised. else is an optional block that runs if no exception was raised in the try block, and finally is an optional block of code that will run last, regardless of if an exception was raised.</description>
+    </item>
+    <item>
+      <title>Best Practices</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/40-exceptions/70-best-practices/</link>
+      <pubDate>Sun, 10 Mar 2019 19:15:44 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/40-exceptions/70-best-practices/</guid>
+      <description>Catch More Specific Exceptions First Remember, your except handlers are evaluated in order, so be sure to put more specific exceptions first. For example:&#xA;&amp;gt;&amp;gt;&amp;gt; try: ... my_value = 3.14 / 0 ... except ArithmeticError: ... print(&amp;#34;We had a general math error&amp;#34;) ... except ZeroDivisionEror: ... print(&amp;#34;We had a divide-by-zero error&amp;#34;) ... We had a general math error When we tried to divide by zero, we inadvertently raised a ZeroDivisionError. However, because ZeroDivisionError is a subclass of ArithmeticError, and except ArithemticError came first, the information about our specific error was swallowed by the except ArithemticError handler, and we lost more detailed information about our error.</description>
+    </item>
+    <item>
+      <title>Custom Exceptions</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/40-exceptions/90-custom-exceptions/</link>
+      <pubDate>Sun, 10 Mar 2019 19:16:01 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/40-exceptions/90-custom-exceptions/</guid>
+      <description>As we mentioned, exceptions are just regular classes that inherit from the Exception class. This makes it super easy to create our own custom exceptions, which can make our programs easier to follow and more readable. An exception need not be complicated, just inherit from Exception:&#xA;&amp;gt;&amp;gt;&amp;gt; class MyCustomException(Exception): ... pass ... &amp;gt;&amp;gt;&amp;gt; raise MyCustomException() Traceback (most recent call last): File &amp;#34;&amp;lt;stdin&amp;gt;&amp;#34;, line 1, in &amp;lt;module&amp;gt; __main__.MyCustomException It&amp;rsquo;s OK to have a custom Exception subclass that only pass-es - your exception doesn&amp;rsquo;t need to do anything fancy to be useful.</description>
+    </item>
+    <item>
+      <title>Practice</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/40-exceptions/99-exercise/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/40-exceptions/99-exercise/</guid>
+      <description>Syntax Errors Let&amp;rsquo;s get more comfortable with exceptions. First, you&amp;rsquo;ve probably seen this one already: The IndentationError.&#xA;&amp;gt;&amp;gt;&amp;gt; def my_function(): ... print(&amp;#34;Hello!&amp;#34;) File &amp;#34;&amp;lt;stdin&amp;gt;&amp;#34;, line 2 print(&amp;#34;Hello!&amp;#34;) ^ IndentationError: expected an indented block Notice that we started a new function scope with the def keyword, but didn&amp;rsquo;t indent the next line of the function, the print() argument.&#xA;You&amp;rsquo;ve probably also seen the more general SyntaxError. This one&amp;rsquo;s probably obvious - something is misspelled, or the syntax is otherwise wrong.</description>
+    </item>
+  </channel>
+</rss>

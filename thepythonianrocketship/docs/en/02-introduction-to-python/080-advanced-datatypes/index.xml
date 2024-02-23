@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Advanced Container Types on Learn Python by Touhidul Alam Seyam</title>
+    <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/080-advanced-datatypes/</link>
+    <description>Recent content in Advanced Container Types on Learn Python by Touhidul Alam Seyam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 03 Mar 2019 17:22:06 -0800</lastBuildDate>
+    <atom:link href="https://pythonianrocketship.github.io/en/02-introduction-to-python/080-advanced-datatypes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lists, Part 1</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/080-advanced-datatypes/10-lists/</link>
+      <pubDate>Sun, 10 Feb 2019 18:20:32 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/080-advanced-datatypes/10-lists/</guid>
+      <description>Lists are one of the most powerful data types in Python. Generally, they&amp;rsquo;re container objects used to store related items together.&#xA;list cheat sheet type list use Used for storing similar items, and in cases where items need to be added or removed. creation [] or list() for empty list, or [1, 2, 3] for a list with items. search methods my_list.index(item) or item in my_list search speed Searching in an item in a large list is slow.</description>
+    </item>
+    <item>
+      <title>Lists, Part 2</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/080-advanced-datatypes/20-adding-removing-finding/</link>
+      <pubDate>Sun, 03 Mar 2019 17:22:06 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/080-advanced-datatypes/20-adding-removing-finding/</guid>
+      <description>Adding, Removing, Changing, and Finding Items in lists cheat sheet action method returns possible errors check length len(my_list) int add: to the end my_list.append(item) - insert: at position my_list.insert(pos, item) - update: at position my_list[pos] = item - - IndexError if pos is &amp;gt;= len(my_list) extend: add items from another list my_list.extend(other_list) - is item in list? item in my_list True or False index of item my_list.index(item) int ValueError if item is not in my_list count of item my_list.</description>
+    </item>
+    <item>
+      <title>Tuples</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/080-advanced-datatypes/30-tuples/</link>
+      <pubDate>Sun, 10 Feb 2019 18:20:45 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/080-advanced-datatypes/30-tuples/</guid>
+      <description>Tuples are light-weight collections used to keep track of related, but different items. Tuples are immutable, meaning that once a tuple has been created, the items in it can&amp;rsquo;t change.&#xA;You might ask, why tuples when Python already has lists? Tuples are different in a few ways. While lists are generally used to store collections of similar items together, tuples, by contrast, can be used to contain a snapshot of data.</description>
+    </item>
+    <item>
+      <title>Sets</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/080-advanced-datatypes/50-sets/</link>
+      <pubDate>Sun, 10 Feb 2019 18:20:42 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/080-advanced-datatypes/50-sets/</guid>
+      <description>Sets are a datatype that allows you to store other immutable types in an unsorted way. An item can only be contained in a set once. There are no duplicates allowed. The benefits of a set are: very fast membership testing along with being able to use powerful set operations, like union, difference, and intersection.&#xA;set cheat sheet type set use Used for storing immutable data types uniquely. Easy to compare the items in sets.</description>
+    </item>
+    <item>
+      <title>Dictionaries</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/080-advanced-datatypes/60-dictionaries/</link>
+      <pubDate>Sun, 10 Feb 2019 18:20:37 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/080-advanced-datatypes/60-dictionaries/</guid>
+      <description>Dictionaries are a useful type that allow us to store our data in key, value pairs. Dictionaries themselves are mutable, but, dictionary keys can only be immutable types.&#xA;We use dictionaries when we want to be able to quickly access additional data associated with a particular key. A great practical application for dictionaries is memoization. Let&amp;rsquo;s say you want to save computing power, and store the result for a function called with particular arguments.</description>
+    </item>
+    <item>
+      <title>Mutability Cheat Sheet</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/080-advanced-datatypes/65-mutability/</link>
+      <pubDate>Sun, 03 Mar 2019 13:06:52 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/080-advanced-datatypes/65-mutability/</guid>
+      <description>Mutability Mutability, simply put: the contents of a mutable object can be changed, while the contents of an immutable object cannot be.&#xA;Simple Types All of the simple data types we covered first are immutable&#xA;type use mutable? int, float, decimal store numbers no str store strings no bool store True or False no Container Types For the mutability of the container types we covered in this chapter, check this helpful list:</description>
+    </item>
+    <item>
+      <title>Practice</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/080-advanced-datatypes/70-exercise/</link>
+      <pubDate>Mon, 04 Feb 2019 15:28:32 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/080-advanced-datatypes/70-exercise/</guid>
+      <description>Lists, Dictionaries, Tuples, and Sets Lists Lists are great for storing an ordered sequence of objects. Remember that you can see the current state of your list at any time by typing the name of your list by itself. Check your list after every operation to see if it has changed.&#xA;&amp;gt;&amp;gt;&amp;gt; my_list = [&amp;#34;h&amp;#34;, &amp;#34;e&amp;#34;, &amp;#34;l&amp;#34;, &amp;#34;l&amp;#34;, &amp;#34;o&amp;#34;] # Let&amp;#39;s look at our list: &amp;gt;&amp;gt;&amp;gt; my_list # Let&amp;#39;s add to my_list: &amp;gt;&amp;gt;&amp;gt; my_list.</description>
+    </item>
+  </channel>
+</rss>

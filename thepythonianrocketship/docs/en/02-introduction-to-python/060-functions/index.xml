@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Functions on Learn Python by Touhidul Alam Seyam</title>
+    <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/060-functions/</link>
+    <description>Recent content in Functions on Learn Python by Touhidul Alam Seyam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 02 Mar 2019 00:00:00 -0800</lastBuildDate>
+    <atom:link href="https://pythonianrocketship.github.io/en/02-introduction-to-python/060-functions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Defining Functions</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/060-functions/10-defining-functions/</link>
+      <pubDate>Sun, 10 Feb 2019 18:16:01 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/060-functions/10-defining-functions/</guid>
+      <description>The purpose of functions in Python are to create reusable code. If we find ourselves copying and pasting the same code multiple times, that&amp;rsquo;s a good sign that a function might help!&#xA;Anatomy of a function This is the recipe for defining a Python function:&#xA;def: the def keyword, telling Python we&amp;rsquo;re about to start a function definition a name for the function (: opening parenthesis (optional) the names of one or more arguments, separated with , (optional) the names and values of one or more default arguments, separated with (,) note: we&amp;rsquo;ll see these in the next section ) closing parenthesis : a colon A function in Python is defined with the def keyword, followed by the function names, zero or more argument names contained in parenthesis (), and a colon : to indicate the start of the function.</description>
+    </item>
+    <item>
+      <title>Function Arguments</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/060-functions/30-function-arguments/</link>
+      <pubDate>Sun, 10 Feb 2019 18:16:14 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/060-functions/30-function-arguments/</guid>
+      <description>Arguments in Practice Positional arguments are required Positional arguments are all required, and must be given in the order they are declared.&#xA;For example, this function doesn&amp;rsquo;t do what we expected, because we passed in our arguments in the wrong order.&#xA;In the REPL:&#xA;&amp;gt;&amp;gt;&amp;gt; def say_greeting(name, greeting): ... print(f&amp;#34;{greeting}, {name}.&amp;#34;) ... &amp;gt;&amp;gt;&amp;gt; say_greeting(&amp;#34;Hello!&amp;#34;, &amp;#34;Nina&amp;#34;) Nina, Hello!. Keyword arguments with default values Functions can accept two types of named arguments, ones without default values, and ones with default values.</description>
+    </item>
+    <item>
+      <title>Function Scope</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/060-functions/40-scope/</link>
+      <pubDate>Sun, 10 Feb 2019 18:30:11 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/060-functions/40-scope/</guid>
+      <description>Scope inside a function Inside of a function in Python, the scope changes.&#xA;Think about it this way: scoping in Python happens with whitespace. When we delineate the code a function contains by indenting it under a function definition, it&amp;rsquo;s scope changes to a new internal scope. It has access to the variables defined outside of it, but it can&amp;rsquo;t change them.&#xA;Once the function is done running, its scope goes away, as do its defined variables.</description>
+    </item>
+    <item>
+      <title>Practice</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/060-functions/50-exercise/</link>
+      <pubDate>Sat, 02 Mar 2019 00:00:00 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/060-functions/50-exercise/</guid>
+      <description>Functions Let&amp;rsquo;s try creating a basic function. Use tab to indent the second line, and press enter on an empty line to finish the function.&#xA;&amp;gt;&amp;gt;&amp;gt; def add_numbers(x, y): ... return x + y ... # Press Enter Now let&amp;rsquo;s try our new function. Type this into your REPL:&#xA;&amp;gt;&amp;gt;&amp;gt; add_numbers(1, 2) # Let&amp;#39;s use the string formatting we learned in the last chapter &amp;gt;&amp;gt;&amp;gt; print(f&amp;#34;The sum of 1 and 2 is {add_numbers(1, 2)}&amp;#34;) Here&amp;#39;s what you should have seen in your REPL: &amp;gt;&amp;gt;&amp;gt; add_numbers(1, 2) 3 # Let&amp;#39;s use the string formatting we learned in the last chapter &amp;gt;&amp;gt;&amp;gt; print(f&amp;#34;The sum of 1 and 2 is {add_numbers(1, 2)}&amp;#34;) The sum of 1 and 2 is 3 The Importance of Whitespace Here&amp;rsquo;s an error that you&amp;rsquo;ll become very familiar with during your career as a Pythonista, the IndentationError.</description>
+    </item>
+  </channel>
+</rss>

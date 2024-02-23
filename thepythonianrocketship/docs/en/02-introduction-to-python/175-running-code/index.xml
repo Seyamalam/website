@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Working With Python Programs on Learn Python by Touhidul Alam Seyam</title>
+    <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/175-running-code/</link>
+    <description>Recent content in Working With Python Programs on Learn Python by Touhidul Alam Seyam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 08 Mar 2019 00:00:00 -0800</lastBuildDate>
+    <atom:link href="https://pythonianrocketship.github.io/en/02-introduction-to-python/175-running-code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How To Run Them</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/175-running-code/10-running-python-programs/</link>
+      <pubDate>Sun, 10 Feb 2019 18:17:06 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/175-running-code/10-running-python-programs/</guid>
+      <description>Creating Python Files with the *.py extension You know a file is a Python program when it ends with a .py extension.&#xA;Naming Tips Just like with formatting, Python&amp;rsquo;s PEP8 guidelines give us a few helpful tips about how to name our Python program files.&#xA;ℹ️ In Python:&#xA;Filenames should be *all lowercase Words should be separated with underscores _ Filenames should be short ✅ Some good example filenames:&#xA;apis.py exceptions.</description>
+    </item>
+    <item>
+      <title>Printing Tips</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/175-running-code/20-print-tips/</link>
+      <pubDate>Sun, 10 Feb 2019 18:13:59 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/175-running-code/20-print-tips/</guid>
+      <description>One of the nice things about the REPL is we can quickly and easily see the contents of our variables, just by typing their name and pressing enter. Unfortunately, running code from Python files doesn&amp;rsquo;t do quite the same thing.&#xA;In a file named name.py:&#xA;# file name.py name = &amp;#34;Nina&amp;#34; name Output:&#xA;(env) $ python name.py Notice, there was no output.&#xA;Now, in a file named print_name.py:&#xA;# file print_name.</description>
+    </item>
+    <item>
+      <title>The main Method</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/175-running-code/30-the-main-method/</link>
+      <pubDate>Sun, 10 Feb 2019 18:16:47 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/175-running-code/30-the-main-method/</guid>
+      <description>Once you start writing more comprehensive Python programs, you&amp;rsquo;ll want to include a main method in your code.&#xA;The purpose of checking for the main method is to make sure that the code in your main method is only run when it&amp;rsquo;s executed as a stand-alone program. Because of how Python&amp;rsquo;s import system works, if someone else imports your Python program, any code in it is executed on import.&#xA;We&amp;rsquo;ll talk more about imports and modules on day two, but let&amp;rsquo;s look at a quick example.</description>
+    </item>
+    <item>
+      <title>Exceptions and Tracebacks</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/175-running-code/50-exceptions/</link>
+      <pubDate>Fri, 25 Jan 2019 15:03:40 -0600</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/175-running-code/50-exceptions/</guid>
+      <description>We talked about how to read the traceback you see if an error occurs in a Python program earlier in the day, but let&amp;rsquo;s talk about what we can do about it.&#xA;Uncaught Exceptions Exit Our Program Let&amp;rsquo;s make a file called exceptions.py:&#xA;# this will throw an exception! int(&amp;#34;a&amp;#34;) print(&amp;#34;End of the program.&amp;#34;) And run it:&#xA;(env) $ python exceptions.py Traceback (most recent call last): File &amp;#34;/Users/nina/projects/2019-fem-python/python/content/02-introduction-to-python/175-running-code/code/exceptions.py&amp;#34;, line 2, in &amp;lt;module&amp;gt; int(&amp;#34;a&amp;#34;) ValueError: invalid literal for int() with base 10: &amp;#39;a&amp;#39; We&amp;rsquo;ll see that &amp;ldquo;Reached end of the program&amp;rdquo; was never printed out.</description>
+    </item>
+    <item>
+      <title>Working With Files</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/175-running-code/60-working-with-files/</link>
+      <pubDate>Fri, 25 Jan 2019 15:06:17 -0600</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/175-running-code/60-working-with-files/</guid>
+      <description>Python provides a built-in function for opening files, cleverly titled open(). The open() method will return an object that you can read() to get the data. By default, open() will open a file in read-only mode, however you can change this by passing a mode parameter. The list of optional modes is here:&#xA;Character Meaning &amp;lsquo;r&amp;rsquo; open for reading (default) &amp;lsquo;w&amp;rsquo; open for writing, truncating the file first &amp;lsquo;x&amp;rsquo; open for exclusive creation, failing if the file already exists &amp;lsquo;a&amp;rsquo; open for writing, appending to the end of the file if it exists &amp;lsquo;b&amp;rsquo; binary mode &amp;rsquo;t&#39; text mode (default) &amp;lsquo;+&amp;rsquo; open a disk file for updating (reading and writing) Opening a file would look something like this:</description>
+    </item>
+    <item>
+      <title>Working with Libraries</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/175-running-code/65-libraries/</link>
+      <pubDate>Fri, 25 Jan 2019 15:06:06 -0600</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/175-running-code/65-libraries/</guid>
+      <description>Working with external libraries in Python makes use of the import keyword. While this can go anywhere in your file, it&amp;rsquo;s almost always best to import libraries at the top of each file where they&amp;rsquo;re used. For example, in the last section, we were able to call upon the built-in json library by calling import json at the top of our code.&#xA;Importing modules with the import keyword is usually the best method, because it preserves the module&amp;rsquo;s namespace.</description>
+    </item>
+    <item>
+      <title>Practice</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/175-running-code/70-exercise/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/175-running-code/70-exercise/</guid>
+      <description>Running Code Let&amp;rsquo;s create a basic program that we can run as a file on the command line. We&amp;rsquo;ll start with a basic framework using a main() function.&#xA;def main(): pass if __name__ == &amp;#34;__main__&amp;#34;: main() Save your file as file_exercise.py and run it from the command line using python file_exercise.py. Note: we are concentrating on Python 3 for this class, so if you have Python 2 installed, you may need to explicitly use python3 file_exercise.</description>
+    </item>
+  </channel>
+</rss>

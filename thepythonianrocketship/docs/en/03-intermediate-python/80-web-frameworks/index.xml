@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Frameworks on Learn Python by Touhidul Alam Seyam</title>
+    <link>https://pythonianrocketship.github.io/en/03-intermediate-python/80-web-frameworks/</link>
+    <description>Recent content in Web Frameworks on Learn Python by Touhidul Alam Seyam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 10 Mar 2019 19:30:36 -0700</lastBuildDate>
+    <atom:link href="https://pythonianrocketship.github.io/en/03-intermediate-python/80-web-frameworks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Basic Flask</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/80-web-frameworks/basic-flask/</link>
+      <pubDate>Sun, 10 Mar 2019 19:30:36 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/80-web-frameworks/basic-flask/</guid>
+      <description>Types of Web Frameworks in Python Django Django is a full-featured, high-level framework for building web apps. Django focuses on automating as much as possible, and many large-scale sites run on Django.&#xA;Flask Flask is a &amp;ldquo;microframework&amp;rdquo; for Python, allowing users to make basic backend APIs and webapps with a minimum of code. Flask is easy for beginners and not opinionated, so we&amp;rsquo;ll be focusing on it for today&amp;rsquo;s exercises.</description>
+    </item>
+    <item>
+      <title>Practice</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/80-web-frameworks/final-exercise/</link>
+      <pubDate>Fri, 25 Jan 2019 15:07:04 -0600</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/80-web-frameworks/final-exercise/</guid>
+      <description>Installing Requirements Our web application has two required external libraries, flask, and requests. As our list of dependencies becomes more complicated, we want to list them in a file called requirements.txt and include it with our project. That way, our code can be reused by others.&#xA;Open and look at the requirements.txt file. The name of each dependency is on a new line.&#xA;As you advance in your Python journey, you can use the more advanced pipenv tool to handle complicated dependencies.</description>
+    </item>
+  </channel>
+</rss>

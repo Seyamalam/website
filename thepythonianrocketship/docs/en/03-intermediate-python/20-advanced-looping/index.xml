@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Advanced Looping on Learn Python by Touhidul Alam Seyam</title>
+    <link>https://pythonianrocketship.github.io/en/03-intermediate-python/20-advanced-looping/</link>
+    <description>Recent content in Advanced Looping on Learn Python by Touhidul Alam Seyam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 10 Mar 2019 19:13:39 -0700</lastBuildDate>
+    <atom:link href="https://pythonianrocketship.github.io/en/03-intermediate-python/20-advanced-looping/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>List Comprehensions</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/20-advanced-looping/10-list-comprehensions/</link>
+      <pubDate>Sun, 10 Mar 2019 19:13:32 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/20-advanced-looping/10-list-comprehensions/</guid>
+      <description>List comprehensions are a unique way to create lists in Python. A list comprehension consists of brackets containing an expression followed by a for clause, then zero or more for or if clauses. The expressions can be any kind of Python object. List comprehensions will commonly take the form of [&amp;lt;value&amp;gt; for &amp;lt;vars&amp;gt; in &amp;lt;iter&amp;gt;].&#xA;A simple case: Say we want to turn a list of strings into a list of string lengths.</description>
+    </item>
+    <item>
+      <title>Other Comprehensions</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/20-advanced-looping/30-other-comprehensions/</link>
+      <pubDate>Sun, 10 Mar 2019 19:13:39 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/20-advanced-looping/30-other-comprehensions/</guid>
+      <description>Dictionary Comprehensions Dictionary comprehensions are a quick and easy way of assembling dictionaries in Python. They work just like list comprehensions, and look almost the same. They use curly braces instead of square brackets, and they contain two variables (for key and value), separated by a colon.&#xA;For example, to assemble a dict in which the keys are numbers between 0 and 10, and the values are the same number squared, we could do:</description>
+    </item>
+    <item>
+      <title>Slicing</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/20-advanced-looping/50-slicing/</link>
+      <pubDate>Sun, 10 Mar 2019 19:13:03 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/20-advanced-looping/50-slicing/</guid>
+      <description>Slicing is a easy way to create sub-lists from larger lists. If you remember back to our exercise on data types, we can use a slice to obtain a subset of items from a list. Remember that a string is just a list of characters. For example:&#xA;&amp;gt;&amp;gt;&amp;gt; my_string = &amp;#34;Hello, world!&amp;#34; &amp;gt;&amp;gt;&amp;gt; my_string[7:12] # from 7 to 12 &amp;#39;world&amp;#39; Lopsided Slicing You can also leave out one of the numbers in the slice.</description>
+    </item>
+    <item>
+      <title>The zip function</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/20-advanced-looping/70-zip/</link>
+      <pubDate>Sun, 03 Mar 2019 18:03:03 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/20-advanced-looping/70-zip/</guid>
+      <description>It&amp;rsquo;s often necessary to iterate over multiple lists simultaneously. Suppose we&amp;rsquo;re keeping score of a game and we have two lists, one for names and one for scores:&#xA;&amp;gt;&amp;gt;&amp;gt; names = [&amp;#34;Bob&amp;#34;, &amp;#34;Alice&amp;#34;, &amp;#34;Eve&amp;#34;] &amp;gt;&amp;gt;&amp;gt; scores = [42, 97, 68] The zip function takes any number of iterable arguments and steps through all of them at the same time until the end of the shortest iterable has been reached:&#xA;&amp;gt;&amp;gt;&amp;gt; for name, score in zip(names, scores): &amp;gt;&amp;gt;&amp;gt; print(f&amp;#34;{name} had a score of {score}.</description>
+    </item>
+    <item>
+      <title>Practice</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/20-advanced-looping/90-exercise/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/20-advanced-looping/90-exercise/</guid>
+      <description>Comprehensions Let&amp;rsquo;s practice our comprehensions. Create a list of only odd numbers between 0 and 100 using a list comprehension. Then, use a comprehension to create a dictionary where the keys are the even numbers from your list, and the values are random integers between 0 and 100 (hint: try random.randint(min, max)). Finally, use a comprehension to create a set of every unique value from the above dictionary.&#xA;&amp;gt;&amp;gt;&amp;gt; my_list = [num for num in range(0, 100) if num % 2 == 0] &amp;gt;&amp;gt;&amp;gt; print(my_list) &amp;gt;&amp;gt;&amp;gt; import random &amp;gt;&amp;gt;&amp;gt; my_dict = {num:random.</description>
+    </item>
+  </channel>
+</rss>

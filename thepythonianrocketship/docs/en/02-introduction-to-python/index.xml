@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intro to Python on Learn Python by Touhidul Alam Seyam</title>
+    <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/</link>
+    <description>Recent content in Intro to Python on Learn Python by Touhidul Alam Seyam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 10 Feb 2019 18:39:32 -0800</lastBuildDate>
+    <atom:link href="https://pythonianrocketship.github.io/en/02-introduction-to-python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wrapping Up</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/200-conclusion/00-wrapping-up/</link>
+      <pubDate>Sun, 10 Feb 2019 18:39:32 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/200-conclusion/00-wrapping-up/</guid>
+      <description>Today you&amp;rsquo;ve gotten a whirlwind tour of the Python programming language.&#xA;During Day 2, we&amp;rsquo;re going to put our knowledge to work writing real programs.&#xA;Source Control I highly recommend that you use source control while working on your Python projects. GitHub is a popular and free option.&#xA;Source control lets you track changes to your project. You can use that to your advantage to commit early and often and track changes to your project.</description>
+    </item>
+  </channel>
+</rss>

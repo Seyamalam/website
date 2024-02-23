@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Boolean Logic on Learn Python by Touhidul Alam Seyam</title>
+    <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/090-boolean-logic/</link>
+    <description>Recent content in Boolean Logic on Learn Python by Touhidul Alam Seyam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 03 Mar 2019 00:00:00 -0800</lastBuildDate>
+    <atom:link href="https://pythonianrocketship.github.io/en/02-introduction-to-python/090-boolean-logic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Truthiness</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/090-boolean-logic/10-truthiness/</link>
+      <pubDate>Sun, 10 Feb 2019 18:17:39 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/090-boolean-logic/10-truthiness/</guid>
+      <description>Evaluating expression to be True or False will help us control the flow of our program.&#xA;cheat sheet type truthiness int 0 is False, all other numbers are True (including negative) containers - list, tuple, set, dict empty container evaluates to False, container with items evaluates to True) None False We talked about boolean types, True and False earlier. True and False are keywords in Python, so make sure you don&amp;rsquo;t name your variables the same thing.</description>
+    </item>
+    <item>
+      <title>Comparisons</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/090-boolean-logic/20-comparisons/</link>
+      <pubDate>Sun, 10 Feb 2019 18:18:14 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/090-boolean-logic/20-comparisons/</guid>
+      <description>How can we compare different values with each other?&#xA;Order Comparisons Cheat Sheet Operator Means &amp;lt; less-than &amp;lt;= less-than-or-equal-to &amp;gt; greater-than &amp;gt;= greater-than-or-equal-to In Python, comparing numbers is pretty straight forward.&#xA;&amp;gt;&amp;gt;&amp;gt; 1 &amp;lt; 10 # 1 is less than 10? True True &amp;gt;&amp;gt;&amp;gt; 20 &amp;lt;= 20 # 20 is less than or equal to 20? True True &amp;gt;&amp;gt;&amp;gt; 10 &amp;gt; 1 # 10 is greater than 1? True True &amp;gt;&amp;gt;&amp;gt; -1 &amp;gt; 1 # -1 is greater than 1?</description>
+    </item>
+    <item>
+      <title>and, or, not</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/090-boolean-logic/30-and-or-not/</link>
+      <pubDate>Sun, 10 Feb 2019 18:17:45 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/090-boolean-logic/30-and-or-not/</guid>
+      <description>and, or, and not are the three basic types of boolean operators that are present in math, programming, and database logic.&#xA;In other programming languages, you might have seen the concept of and represented with &amp;amp;&amp;amp;, or, represented with ||, and not represented by !. The Python language is instead focused on readability. So we&amp;rsquo;ll use the english and instead of trying to remember fancy symbols. Python still uses the &amp;amp;, | and !</description>
+    </item>
+    <item>
+      <title>Practice</title>
+      <link>https://pythonianrocketship.github.io/en/02-introduction-to-python/090-boolean-logic/40-exercise/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 -0800</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/02-introduction-to-python/090-boolean-logic/40-exercise/</guid>
+      <description>Boolean Logic Comparisons Let&amp;rsquo;s practice using our comparison operators. Remember:&#xA;Operator Means &amp;lt; less-than &amp;lt;= less-than-or-equal-to &amp;gt; greater-than &amp;gt;= greater-than-or-equal-to == equals != not-equals Remember, the first six operators test the object&amp;rsquo;s value. is and is not test whether two objects are the same thing. This is useful for singletons, such as None or False. We won&amp;rsquo;t be using them much in this intro course, but feel free to play with them.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Object Oriented Programming on Learn Python by Touhidul Alam Seyam</title>
+    <link>https://pythonianrocketship.github.io/en/03-intermediate-python/30-oop-classes-inheritance/</link>
+    <description>Recent content in Object Oriented Programming on Learn Python by Touhidul Alam Seyam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 10 Mar 2019 19:29:28 -0700</lastBuildDate>
+    <atom:link href="https://pythonianrocketship.github.io/en/03-intermediate-python/30-oop-classes-inheritance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Concept</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/30-oop-classes-inheritance/10-concept/</link>
+      <pubDate>Sun, 10 Mar 2019 19:29:28 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/30-oop-classes-inheritance/10-concept/</guid>
+      <description>Object-oriented Programming (OOP) is a language model (or paradigm) in which properties or behaviors are organized into &amp;ldquo;objects&amp;rdquo;. Some languages encourage a more procedural style, like if you were writing a recipe - some popular examples are COBOL and BASIC. Languages that adopt an Object-oriented style organize things into objects, and provide methods for objects to communicate with one another.&#xA;What is an object? An object can be a function, a variable, a property, a class&amp;hellip; everything in Python is an object.</description>
+    </item>
+    <item>
+      <title>Classes</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/30-oop-classes-inheritance/30-classes/</link>
+      <pubDate>Sun, 10 Mar 2019 19:29:24 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/30-oop-classes-inheritance/30-classes/</guid>
+      <description>Every thing or object in Python is an instance of a class. The number 42 is an instance of the class int. The string Hello, world is an instance of the str (or string) class. These classes, in turn, are subclasses of the master object class.&#xA;Classes vs Instances The Object-oriented Programming paradigm is structured around Classes and Instances. You can think of a class as a &amp;ldquo;type&amp;rdquo; of something, like &amp;ldquo;Car.</description>
+    </item>
+    <item>
+      <title>Methods</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/30-oop-classes-inheritance/50-methods/</link>
+      <pubDate>Sun, 10 Mar 2019 19:29:24 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/30-oop-classes-inheritance/50-methods/</guid>
+      <description>You&amp;rsquo;ve just seen the difference between class and instance variables. Classes can also have class methods - methods that are shared among all instances of a certain type. As with variables, they can be overriden in a specific instance or subclass.&#xA;Let&amp;rsquo;s add a class method to our Car class:&#xA;class Car: runs = True number_of_wheels = 4 @classmethod def get_number_of_wheels(cls): return cls.number_of_wheels def start(self): if self.runs: print(&amp;#34;Car is started. Vroom vroom!</description>
+    </item>
+    <item>
+      <title>Inheritance</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/30-oop-classes-inheritance/70-inheritance/</link>
+      <pubDate>Sun, 10 Mar 2019 19:29:19 -0700</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/30-oop-classes-inheritance/70-inheritance/</guid>
+      <description>Class inheritance is a very useful Object-oriented Programming construct for sharing and reusing code. Inheritance makes it possible to break up and organize your code into a hierarchy, from generic to specific. Objects that belong to classes that are higher up in the hierarchy (more generic) are accessible by subclasses, but not vice versa.&#xA;Earlier, we saw that bool is a subclass of int, thus, it inherited the properties and methods of the int class, and then extended it to be more specific to booleans.</description>
+    </item>
+    <item>
+      <title>Practice</title>
+      <link>https://pythonianrocketship.github.io/en/03-intermediate-python/30-oop-classes-inheritance/90-exercise/</link>
+      <pubDate>Fri, 25 Jan 2019 15:07:04 -0600</pubDate>
+      <guid>https://pythonianrocketship.github.io/en/03-intermediate-python/30-oop-classes-inheritance/90-exercise/</guid>
+      <description>classes and self Let&amp;rsquo;s practice making a simple class. Open a new file and save it as class_example.py, we&amp;rsquo;ll be running this from the command line rather than the REPL. Pass in several variables and save them to the instance by using self:&#xA;class Vehicle: def __init__(self, make, model, fuel=&amp;#34;gas&amp;#34;): self.make = make self.model = model self.fuel = fuel daily_driver = Vehicle(&amp;#34;Subaru&amp;#34;, &amp;#34;Crosstrek&amp;#34;) # By default, this is how python represents our object: print(daily_driver) # The variables we saved to the instance are available like this: print(f&amp;#34;I drive a {daily_driver.</description>
+    </item>
+  </channel>
+</rss>

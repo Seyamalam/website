@@ -1,0 +1,4598 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.123.1">
+    <meta name="description" content="Free Learn Python Course by Touhidul Alam Seyam - An intensive two day introduction and intermediate course on Python. Video course will be published on YouTube (Coming Soon).">
+<meta name="author" content="Touhidul Alam Seyam">
+
+    <link rel="icon" href="/images/favicon.png" type="image/png">
+
+    <title>Looping in Python :: Learn Python by Touhidul Alam Seyam</title>
+
+    
+    <link href="/css/nucleus.css?1708689535" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1708689535" rel="stylesheet">
+    <link href="/css/hybrid.css?1708689535" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1708689535" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1708689535" rel="stylesheet">
+    <link href="/css/auto-complete.css?1708689535" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1708689535" rel="stylesheet">
+    <link href="/css/theme.css?1708689535" rel="stylesheet">
+    <link href="/css/tabs.css?1708689535" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1708689535" rel="stylesheet">
+    
+    <link href="/css/theme-blue.css?1708689535" rel="stylesheet">
+    
+    
+
+    <script src="/js/jquery-3.3.1.min.js?1708689535"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+        :not(pre) > code + span.copy-to-clipboard {
+            display: none;
+        }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/en/02-introduction-to-python/110-control-statements-looping/05-looping-in-python/">
+    <nav id="sidebar" class="showVisitedLinks">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <img src="/images/snake-scaled.png">
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/js/lunr.min.js?1708689535"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1708689535"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/pythonianrocketship.github.io\/";
+    
+</script>
+<script type="text/javascript" src="/js/search.js?1708689535"></script>
+
+    
+  </div>
+  
+    <section id="homelinks">
+      <ul>
+        <li>
+            <a class="padding" href='/'><i class='fas fa-home'></i> Home</a>
+        </li>
+      </ul>
+    </section>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/en/01-introduction/" title="Course Introduction" class="dd-item
+        
+        
+        
+        ">
+      <a href="/en/01-introduction/">
+          Course Introduction
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/01-introduction/00-who/" title="About Your Instructor" class="dd-item ">
+        <a href="/en/01-introduction/00-who/">
+        About Your Instructor
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/01-introduction/02-navigating-course/" title="Navigating The Course" class="dd-item ">
+        <a href="/en/01-introduction/02-navigating-course/">
+        Navigating The Course
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/en/01-introduction/02-requirements/" title="Requirements" class="dd-item
+        
+        
+        
+        ">
+      <a href="/en/01-introduction/02-requirements/">
+          Requirements
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/en/01-introduction/02-requirements/05-vs-code/" title="Setting Up VS Code" class="dd-item
+        
+        
+        
+        ">
+      <a href="/en/01-introduction/02-requirements/05-vs-code/">
+          Setting Up VS Code
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/01-introduction/02-requirements/05-vs-code/01-getting-started/" title="Getting Started" class="dd-item ">
+        <a href="/en/01-introduction/02-requirements/05-vs-code/01-getting-started/">
+        Getting Started
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/01-introduction/02-requirements/05-vs-code/03-working-with-python/" title="Working With Python" class="dd-item ">
+        <a href="/en/01-introduction/02-requirements/05-vs-code/03-working-with-python/">
+        Working With Python
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/01-introduction/02-requirements/05-vs-code/04-the-repl-in-vscode/" title="Using The REPL" class="dd-item ">
+        <a href="/en/01-introduction/02-requirements/05-vs-code/04-the-repl-in-vscode/">
+        Using The REPL
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/01-introduction/02-requirements/05-vs-code/05-running-code/" title="Running Code" class="dd-item ">
+        <a href="/en/01-introduction/02-requirements/05-vs-code/05-running-code/">
+        Running Code
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/en/02-introduction-to-python/" title="Intro to Python" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="/en/02-introduction-to-python/">
+          <b>Day 1. </b>Intro to Python
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/en/02-introduction-to-python/010-best-practices/" title="Why Choose Python" class="dd-item
+        
+        
+        
+        ">
+      <a href="/en/02-introduction-to-python/010-best-practices/">
+          <b>1. </b>Why Choose Python
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/010-best-practices/02-brief-history/" title="About Python 🐍" class="dd-item ">
+        <a href="/en/02-introduction-to-python/010-best-practices/02-brief-history/">
+        About Python 🐍
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/010-best-practices/03-conventions/" title="Conventions" class="dd-item ">
+        <a href="/en/02-introduction-to-python/010-best-practices/03-conventions/">
+        Conventions
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/010-best-practices/01-anatomy-of-a-python-program/" title="Anatomy of a Python Program" class="dd-item ">
+        <a href="/en/02-introduction-to-python/010-best-practices/01-anatomy-of-a-python-program/">
+        Anatomy of a Python Program
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/en/02-introduction-to-python/020-basic-data-types/" title="Basic Data Types" class="dd-item
+        
+        
+        
+        ">
+      <a href="/en/02-introduction-to-python/020-basic-data-types/">
+          <b>2. </b>Basic Data Types
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/020-basic-data-types/00-variables/" title="Variables and Types" class="dd-item ">
+        <a href="/en/02-introduction-to-python/020-basic-data-types/00-variables/">
+        Variables and Types
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/020-basic-data-types/02-numbers/" title="Numbers" class="dd-item ">
+        <a href="/en/02-introduction-to-python/020-basic-data-types/02-numbers/">
+        Numbers
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/020-basic-data-types/03-strings/" title="Strings" class="dd-item ">
+        <a href="/en/02-introduction-to-python/020-basic-data-types/03-strings/">
+        Strings
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/020-basic-data-types/05-common-string-and-number-errors/" title="Common Mistakes" class="dd-item ">
+        <a href="/en/02-introduction-to-python/020-basic-data-types/05-common-string-and-number-errors/">
+        Common Mistakes
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/020-basic-data-types/10-exercise/" title="Practice" class="dd-item ">
+        <a href="/en/02-introduction-to-python/020-basic-data-types/10-exercise/">
+        <b>⭐️ </b>Practice
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/en/02-introduction-to-python/060-functions/" title="Functions" class="dd-item
+        
+        
+        
+        ">
+      <a href="/en/02-introduction-to-python/060-functions/">
+          <b>3. </b>Functions
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/060-functions/10-defining-functions/" title="Defining Functions" class="dd-item ">
+        <a href="/en/02-introduction-to-python/060-functions/10-defining-functions/">
+        Defining Functions
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/060-functions/30-function-arguments/" title="Function Arguments" class="dd-item ">
+        <a href="/en/02-introduction-to-python/060-functions/30-function-arguments/">
+        Function Arguments
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/060-functions/40-scope/" title="Function Scope" class="dd-item ">
+        <a href="/en/02-introduction-to-python/060-functions/40-scope/">
+        Function Scope
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/060-functions/50-exercise/" title="Practice" class="dd-item ">
+        <a href="/en/02-introduction-to-python/060-functions/50-exercise/">
+        <b>⭐️ </b>Practice
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/en/02-introduction-to-python/080-advanced-datatypes/" title="Advanced Container Types" class="dd-item
+        
+        
+        
+        ">
+      <a href="/en/02-introduction-to-python/080-advanced-datatypes/">
+          <b>4. </b>Advanced Container Types
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/080-advanced-datatypes/10-lists/" title="Lists, Part 1" class="dd-item ">
+        <a href="/en/02-introduction-to-python/080-advanced-datatypes/10-lists/">
+        Lists, Part 1
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/080-advanced-datatypes/20-adding-removing-finding/" title="Lists, Part 2" class="dd-item ">
+        <a href="/en/02-introduction-to-python/080-advanced-datatypes/20-adding-removing-finding/">
+        Lists, Part 2
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/080-advanced-datatypes/30-tuples/" title="Tuples" class="dd-item ">
+        <a href="/en/02-introduction-to-python/080-advanced-datatypes/30-tuples/">
+        Tuples
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/080-advanced-datatypes/50-sets/" title="Sets" class="dd-item ">
+        <a href="/en/02-introduction-to-python/080-advanced-datatypes/50-sets/">
+        Sets
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/080-advanced-datatypes/60-dictionaries/" title="Dictionaries" class="dd-item ">
+        <a href="/en/02-introduction-to-python/080-advanced-datatypes/60-dictionaries/">
+        Dictionaries
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/080-advanced-datatypes/65-mutability/" title="Mutability Cheat Sheet" class="dd-item ">
+        <a href="/en/02-introduction-to-python/080-advanced-datatypes/65-mutability/">
+        Mutability Cheat Sheet
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/080-advanced-datatypes/70-exercise/" title="Practice" class="dd-item ">
+        <a href="/en/02-introduction-to-python/080-advanced-datatypes/70-exercise/">
+        <b>⭐️ </b>Practice
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/en/02-introduction-to-python/090-boolean-logic/" title="Boolean Logic" class="dd-item
+        
+        
+        
+        ">
+      <a href="/en/02-introduction-to-python/090-boolean-logic/">
+          <b>5. </b>Boolean Logic
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/090-boolean-logic/10-truthiness/" title="Truthiness" class="dd-item ">
+        <a href="/en/02-introduction-to-python/090-boolean-logic/10-truthiness/">
+        Truthiness
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/090-boolean-logic/20-comparisons/" title="Comparisons" class="dd-item ">
+        <a href="/en/02-introduction-to-python/090-boolean-logic/20-comparisons/">
+        Comparisons
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/090-boolean-logic/30-and-or-not/" title="and, or, not" class="dd-item ">
+        <a href="/en/02-introduction-to-python/090-boolean-logic/30-and-or-not/">
+        and, or, not
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/090-boolean-logic/40-exercise/" title="Practice" class="dd-item ">
+        <a href="/en/02-introduction-to-python/090-boolean-logic/40-exercise/">
+        <b>⭐️ </b>Practice
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/en/02-introduction-to-python/110-control-statements-looping/" title="Loops and Control Statements" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="/en/02-introduction-to-python/110-control-statements-looping/">
+          <b>6. </b>Loops and Control Statements
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/110-control-statements-looping/05-looping-in-python/" title="Looping in Python" class="dd-item active">
+        <a href="/en/02-introduction-to-python/110-control-statements-looping/05-looping-in-python/">
+        Looping in Python
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/110-control-statements-looping/10-if-else-elif/" title="if, else, elif" class="dd-item ">
+        <a href="/en/02-introduction-to-python/110-control-statements-looping/10-if-else-elif/">
+        if, else, elif
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/110-control-statements-looping/30-while-loops/" title="while loops" class="dd-item ">
+        <a href="/en/02-introduction-to-python/110-control-statements-looping/30-while-loops/">
+        while loops
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/110-control-statements-looping/40-break-continue/" title="break, continue, and return" class="dd-item ">
+        <a href="/en/02-introduction-to-python/110-control-statements-looping/40-break-continue/">
+        break, continue, and return
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/110-control-statements-looping/50-exercise/" title="Practice" class="dd-item ">
+        <a href="/en/02-introduction-to-python/110-control-statements-looping/50-exercise/">
+        <b>⭐️ </b>Practice
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/en/02-introduction-to-python/175-running-code/" title="Working With Python Programs" class="dd-item
+        
+        
+        
+        ">
+      <a href="/en/02-introduction-to-python/175-running-code/">
+          <b>7. </b>Working With Python Programs
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/175-running-code/10-running-python-programs/" title="How To Run Them" class="dd-item ">
+        <a href="/en/02-introduction-to-python/175-running-code/10-running-python-programs/">
+        How To Run Them
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/175-running-code/20-print-tips/" title="Printing Tips" class="dd-item ">
+        <a href="/en/02-introduction-to-python/175-running-code/20-print-tips/">
+        Printing Tips
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/175-running-code/30-the-main-method/" title="The main Method" class="dd-item ">
+        <a href="/en/02-introduction-to-python/175-running-code/30-the-main-method/">
+        The main Method
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/175-running-code/50-exceptions/" title="Exceptions and Tracebacks" class="dd-item ">
+        <a href="/en/02-introduction-to-python/175-running-code/50-exceptions/">
+        Exceptions and Tracebacks
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/175-running-code/60-working-with-files/" title="Working With Files" class="dd-item ">
+        <a href="/en/02-introduction-to-python/175-running-code/60-working-with-files/">
+        Working With Files
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/175-running-code/65-libraries/" title="Working with Libraries" class="dd-item ">
+        <a href="/en/02-introduction-to-python/175-running-code/65-libraries/">
+        Working with Libraries
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/175-running-code/70-exercise/" title="Practice" class="dd-item ">
+        <a href="/en/02-introduction-to-python/175-running-code/70-exercise/">
+        <b>⭐️ </b>Practice
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/en/02-introduction-to-python/190-apis/" title="APIs" class="dd-item
+        
+        
+        
+        ">
+      <a href="/en/02-introduction-to-python/190-apis/">
+          <b>8. </b>APIs
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/190-apis/00-what-is-an-api/" title="What Is an API?" class="dd-item ">
+        <a href="/en/02-introduction-to-python/190-apis/00-what-is-an-api/">
+        What Is an API?
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/190-apis/00-requests-and-responses/" title="Working with APIs" class="dd-item ">
+        <a href="/en/02-introduction-to-python/190-apis/00-requests-and-responses/">
+        Working with APIs
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/190-apis/00-the-requests-library/" title="Using The Requests Library" class="dd-item ">
+        <a href="/en/02-introduction-to-python/190-apis/00-the-requests-library/">
+        Using The Requests Library
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/190-apis/final-exercise/" title="Practice" class="dd-item ">
+        <a href="/en/02-introduction-to-python/190-apis/final-exercise/">
+        <b>⭐️ </b>Practice
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/02-introduction-to-python/200-conclusion/00-wrapping-up/" title="Wrapping Up" class="dd-item ">
+        <a href="/en/02-introduction-to-python/200-conclusion/00-wrapping-up/">
+        Wrapping Up
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/en/03-intermediate-python/" title="Intermediate Python" class="dd-item
+        
+        
+        
+        ">
+      <a href="/en/03-intermediate-python/">
+          <b>Day 2. </b>Intermediate Python
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/00-final-project-preview/" title="Final Project Preview" class="dd-item ">
+        <a href="/en/03-intermediate-python/00-final-project-preview/">
+        Final Project Preview
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/en/03-intermediate-python/10-introduction/" title="More Python Ideas" class="dd-item
+        
+        
+        
+        ">
+      <a href="/en/03-intermediate-python/10-introduction/">
+          <b>1. </b>More Python Ideas
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/10-introduction/00-getting-ready/" title="Getting Ready" class="dd-item ">
+        <a href="/en/03-intermediate-python/10-introduction/00-getting-ready/">
+        Getting Ready
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/10-introduction/00-python-philosophy/" title="Python Philosophy" class="dd-item ">
+        <a href="/en/03-intermediate-python/10-introduction/00-python-philosophy/">
+        Python Philosophy
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/en/03-intermediate-python/10-introduction/15-converting-between-types/" title="Converting Between Types" class="dd-item
+        
+        
+        
+        ">
+      <a href="/en/03-intermediate-python/10-introduction/15-converting-between-types/">
+          Converting Between Types
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/10-introduction/15-converting-between-types/04-string-operations/" title="String Operations" class="dd-item ">
+        <a href="/en/03-intermediate-python/10-introduction/15-converting-between-types/04-string-operations/">
+        String Operations
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/10-introduction/15-converting-between-types/10-exercise/" title="Practice" class="dd-item ">
+        <a href="/en/03-intermediate-python/10-introduction/15-converting-between-types/10-exercise/">
+        <b>⭐️ </b>Practice
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/en/03-intermediate-python/20-advanced-looping/" title="Advanced Looping" class="dd-item
+        
+        
+        
+        ">
+      <a href="/en/03-intermediate-python/20-advanced-looping/">
+          <b>2. </b>Advanced Looping
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/20-advanced-looping/10-list-comprehensions/" title="List Comprehensions" class="dd-item ">
+        <a href="/en/03-intermediate-python/20-advanced-looping/10-list-comprehensions/">
+        List Comprehensions
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/20-advanced-looping/30-other-comprehensions/" title="Other Comprehensions" class="dd-item ">
+        <a href="/en/03-intermediate-python/20-advanced-looping/30-other-comprehensions/">
+        Other Comprehensions
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/20-advanced-looping/50-slicing/" title="Slicing" class="dd-item ">
+        <a href="/en/03-intermediate-python/20-advanced-looping/50-slicing/">
+        Slicing
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/20-advanced-looping/70-zip/" title="The zip function" class="dd-item ">
+        <a href="/en/03-intermediate-python/20-advanced-looping/70-zip/">
+        The zip function
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/20-advanced-looping/90-exercise/" title="Practice" class="dd-item ">
+        <a href="/en/03-intermediate-python/20-advanced-looping/90-exercise/">
+        <b>⭐️ </b>Practice
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/en/03-intermediate-python/30-oop-classes-inheritance/" title="Object Oriented Programming" class="dd-item
+        
+        
+        
+        ">
+      <a href="/en/03-intermediate-python/30-oop-classes-inheritance/">
+          <b>3. </b>Object Oriented Programming
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/30-oop-classes-inheritance/10-concept/" title="Concept" class="dd-item ">
+        <a href="/en/03-intermediate-python/30-oop-classes-inheritance/10-concept/">
+        Concept
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/30-oop-classes-inheritance/30-classes/" title="Classes" class="dd-item ">
+        <a href="/en/03-intermediate-python/30-oop-classes-inheritance/30-classes/">
+        Classes
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/30-oop-classes-inheritance/50-methods/" title="Methods" class="dd-item ">
+        <a href="/en/03-intermediate-python/30-oop-classes-inheritance/50-methods/">
+        Methods
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/30-oop-classes-inheritance/70-inheritance/" title="Inheritance" class="dd-item ">
+        <a href="/en/03-intermediate-python/30-oop-classes-inheritance/70-inheritance/">
+        Inheritance
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/30-oop-classes-inheritance/90-exercise/" title="Practice" class="dd-item ">
+        <a href="/en/03-intermediate-python/30-oop-classes-inheritance/90-exercise/">
+        <b>⭐️ </b>Practice
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/en/03-intermediate-python/40-exceptions/" title="Exceptions" class="dd-item
+        
+        
+        
+        ">
+      <a href="/en/03-intermediate-python/40-exceptions/">
+          <b>4. </b>Exceptions
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/40-exceptions/10-all-about-exceptions/" title="All About Exceptions" class="dd-item ">
+        <a href="/en/03-intermediate-python/40-exceptions/10-all-about-exceptions/">
+        All About Exceptions
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/40-exceptions/30-try-except-else-finally/" title="Try Except" class="dd-item ">
+        <a href="/en/03-intermediate-python/40-exceptions/30-try-except-else-finally/">
+        Try Except
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/40-exceptions/70-best-practices/" title="Best Practices" class="dd-item ">
+        <a href="/en/03-intermediate-python/40-exceptions/70-best-practices/">
+        Best Practices
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/40-exceptions/90-custom-exceptions/" title="Custom Exceptions" class="dd-item ">
+        <a href="/en/03-intermediate-python/40-exceptions/90-custom-exceptions/">
+        Custom Exceptions
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/40-exceptions/99-exercise/" title="Practice" class="dd-item ">
+        <a href="/en/03-intermediate-python/40-exceptions/99-exercise/">
+        <b>⭐️ </b>Practice
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/en/03-intermediate-python/50-libraries-modules/" title="Libraries and Modules" class="dd-item
+        
+        
+        
+        ">
+      <a href="/en/03-intermediate-python/50-libraries-modules/">
+          <b>5. </b>Libraries and Modules
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/50-libraries-modules/10-standard-library/" title="Standard Library" class="dd-item ">
+        <a href="/en/03-intermediate-python/50-libraries-modules/10-standard-library/">
+        Standard Library
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/50-libraries-modules/30-modules-and-imports/" title="Modules and Imports" class="dd-item ">
+        <a href="/en/03-intermediate-python/50-libraries-modules/30-modules-and-imports/">
+        Modules and Imports
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/50-libraries-modules/50-pypi/" title="PyPI" class="dd-item ">
+        <a href="/en/03-intermediate-python/50-libraries-modules/50-pypi/">
+        PyPI
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/50-libraries-modules/90-exercise/" title="Practice" class="dd-item ">
+        <a href="/en/03-intermediate-python/50-libraries-modules/90-exercise/">
+        <b>⭐️ </b>Practice
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/en/03-intermediate-python/60-command-line-tools/" title="Writing Command Line Tools" class="dd-item
+        
+        
+        
+        ">
+      <a href="/en/03-intermediate-python/60-command-line-tools/">
+          <b>6. </b>Writing Command Line Tools
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/60-command-line-tools/10-advanced-strings/" title="Advanced Strings" class="dd-item ">
+        <a href="/en/03-intermediate-python/60-command-line-tools/10-advanced-strings/">
+        Advanced Strings
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/60-command-line-tools/30-accepting-user-input/" title="Accepting User Input" class="dd-item ">
+        <a href="/en/03-intermediate-python/60-command-line-tools/30-accepting-user-input/">
+        Accepting User Input
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/60-command-line-tools/90-exercise/" title="Practice" class="dd-item ">
+        <a href="/en/03-intermediate-python/60-command-line-tools/90-exercise/">
+        <b>⭐️ </b>Practice
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/en/03-intermediate-python/70-tests/" title="Tests" class="dd-item
+        
+        
+        
+        ">
+      <a href="/en/03-intermediate-python/70-tests/">
+          <b>7. </b>Tests
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/70-tests/10-concept/" title="Concept" class="dd-item ">
+        <a href="/en/03-intermediate-python/70-tests/10-concept/">
+        Concept
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/70-tests/30-assertions/" title="Assertions" class="dd-item ">
+        <a href="/en/03-intermediate-python/70-tests/30-assertions/">
+        Assertions
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/70-tests/50-writing-tests/" title="Writing Tests" class="dd-item ">
+        <a href="/en/03-intermediate-python/70-tests/50-writing-tests/">
+        Writing Tests
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/70-tests/90-exercise/" title="Practice" class="dd-item ">
+        <a href="/en/03-intermediate-python/70-tests/90-exercise/">
+        <b>⭐️ </b>Practice
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/en/03-intermediate-python/80-web-frameworks/" title="Web Frameworks" class="dd-item
+        
+        
+        
+        ">
+      <a href="/en/03-intermediate-python/80-web-frameworks/">
+          <b>8. </b>Web Frameworks
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/80-web-frameworks/basic-flask/" title="Basic Flask" class="dd-item ">
+        <a href="/en/03-intermediate-python/80-web-frameworks/basic-flask/">
+        Basic Flask
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/en/03-intermediate-python/80-web-frameworks/final-exercise/" title="Practice" class="dd-item ">
+        <a href="/en/03-intermediate-python/80-web-frameworks/final-exercise/">
+        <b>⭐️ </b>Practice
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/en/03-intermediate-python/90-conclusion/" title="Wrapping Up" class="dd-item
+        
+        
+        
+        ">
+      <a href="/en/03-intermediate-python/90-conclusion/">
+          Wrapping Up
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+      <section id="shortcuts">
+        <h3>More</h3>
+        <ul>
+          
+              <li>
+                  <a class="padding" href="https://github.com/Seyamalam/pythonianrocketship.github.io"><i class='fab fa-fw fa-github'></i> Github repo</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://twitter.com/nnja"><i class='fab fa-twitter'></i> Follow Nina on Twitter</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://pythonianrocketship.github.io/en/credits"><i class='fas fa-fw fa-bullhorn'></i> Credits</a>
+              </li>
+          
+        </ul>
+      </section>
+    
+
+    
+    <section id="prefooter">
+      <hr/>
+      <ul>
+      
+
+      
+        <li><a class="padding" href="#" data-clear-history-toggle=""><i class="fas fa-history fa-fw"></i> Clear History</a></li>
+      
+      </ul>
+    </section>
+    
+    <section id="footer">
+      <p>Built with the <a href="https://github.com/matcornic/hugo-theme-learn">Learn</a> theme.<i class="fas fa-heart"></i></p>
+<br/ >
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a><br />The course content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/en/'>Learn Python</a> > <a href='/en/02-introduction-to-python/'>Intro to Python</a> > <a href='/en/02-introduction-to-python/110-control-statements-looping/'>Loops and Control Statements</a> > Looping in Python
+          
+        
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#for-loop-cheat-sheet"><code>for</code> Loop Cheat Sheet</a></li>
+        <li><a href="#looping-in-python">Looping in Python</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Looping in Python
+            </h1>
+          
+
+        
+
+
+<h3 id="for-loop-cheat-sheet"><code>for</code> Loop Cheat Sheet</h3>
+<p>Looping in Python doesn&rsquo;t look like looping in other languages.</p>
+<p>If you write JavaScript, Java, or other languages, you might have seen code that looks something like this code, that keeps track of 3 things: the starting index, the condition the loop will run until, and which action to take (in this case, incrementing the variable <code>i</code> by 1) until the condition is met.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> (<span style="color:#a6e22e">i</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span> <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">5</span>; <span style="color:#a6e22e">i</span><span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">text</span> <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;The number is &#34;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;&lt;br&gt;&#34;</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>In fact, before these languages introduced something called a <code>for each</code> loop, that was also the clunky way you&rsquo;d loop through items in a sequence.</p>
+<h3 id="looping-in-python">Looping in Python</h3>
+<p>Looping in Python is a simpler, cleaner process because the Python language prides itself on readability.</p>
+<p>Remember you used the <code>in</code> keyword to test if an item was in a sequence? When combined with the <code>for</code> keyword, <code>in</code> can be used to indicate looping over each item in the sequence. The syntax is: <code>for single_item in items</code>, followed by a colon <code>:</code>, followed by a new line, a level of indentation, and the code you&rsquo;d like to consider as the <em>body</em> of the loop. That is, the code that&rsquo;ll run multiple times, until there are no more items in the collection.</p>
+<p>Let&rsquo;s see it in action.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;&gt;</span> colors <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#34;Red&#34;</span>, <span style="color:#e6db74">&#34;Green&#34;</span>, <span style="color:#e6db74">&#34;Blue&#34;</span>, <span style="color:#e6db74">&#34;Orange&#34;</span>]
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#66d9ef">for</span> color <span style="color:#f92672">in</span> colors:
+</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>     print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;The color is: </span><span style="color:#e6db74">{</span>color<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>The color <span style="color:#f92672">is</span>: Red
+</span></span><span style="display:flex;"><span>The color <span style="color:#f92672">is</span>: Green
+</span></span><span style="display:flex;"><span>The color <span style="color:#f92672">is</span>: Blue
+</span></span><span style="display:flex;"><span>The color <span style="color:#f92672">is</span>: Orange
+</span></span></code></pre></div><h4 id="looping-over-a-range-of-numbers">Looping over a range of numbers</h4>
+<p>Let&rsquo;s say we wanted to duplicate the code in the example JavaScript above, that prints out the numbers from 0 to 4.</p>
+<p>In order to do this, we&rsquo;ll need to use a built-in function called <code>range()</code>. The range function in python produces a sequence of integers from an optional and inclusive start, to a defined and exclusive finish.</p>
+<p>In Python2, this function created a list of each number in that sequence. As you can imagine, it was horribly inefficient for large ranges. In Python3, the <code>range()</code> function returns a new optimized data type. It&rsquo;s great for optimization, but it&rsquo;s harder for debugging.</p>
+
+<div class="notices note" ><p>If you want to explicitly see what a call to <code>range()</code> produces for debugging purposes, you can pass the result into the <code>list()</code> method to see all the values at once. For example: <code>list(range(5))</code>. Remember that this is inefficient, so use it for testing, not in production code.</p>
+</div>
+
+<p>If we wanted to loop over all the values from 0 to 4, we&rsquo;d use the range function like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#66d9ef">for</span> num <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">5</span>):
+</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>     print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;The number is: </span><span style="color:#e6db74">{</span>num<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>
+</span></span><span style="display:flex;"><span>The number <span style="color:#f92672">is</span>: <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>The number <span style="color:#f92672">is</span>: <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>The number <span style="color:#f92672">is</span>: <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>The number <span style="color:#f92672">is</span>: <span style="color:#ae81ff">3</span>
+</span></span><span style="display:flex;"><span>The number <span style="color:#f92672">is</span>: <span style="color:#ae81ff">4</span>
+</span></span></code></pre></div><p>You&rsquo;ll notice that this call didn&rsquo;t <em>include</em> the number 5.</p>
+<p>What if we wanted the range from 1 to 4, instead of 0 to 4? <code>range()</code> can be called with <code>start</code> and <code>stop</code> parameters, and the range will <em>start</em> from <code>start</code>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#66d9ef">for</span> num <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">5</span>):
+</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>     print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;The number is: </span><span style="color:#e6db74">{</span>num<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>
+</span></span><span style="display:flex;"><span>The number <span style="color:#f92672">is</span>: <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>The number <span style="color:#f92672">is</span>: <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>The number <span style="color:#f92672">is</span>: <span style="color:#ae81ff">3</span>
+</span></span><span style="display:flex;"><span>The number <span style="color:#f92672">is</span>: <span style="color:#ae81ff">4</span>
+</span></span></code></pre></div><p>You can also pass an a third optional <code>step</code> parameter in. Let&rsquo;s say I quickly wanted to print out all the even numbers from 2 to 10. I would call <code>range(2, 11, 2)</code>. Remember, 2 is where we&rsquo;re starting, 11 is one higher than where we&rsquo;re ending (10), and 2 is the step, or the amount to jump between numbers.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#66d9ef">for</span> num <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">11</span>, <span style="color:#ae81ff">2</span>):
+</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>     print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;The number is: </span><span style="color:#e6db74">{</span>num<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>
+</span></span><span style="display:flex;"><span>The number <span style="color:#f92672">is</span>: <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>The number <span style="color:#f92672">is</span>: <span style="color:#ae81ff">4</span>
+</span></span><span style="display:flex;"><span>The number <span style="color:#f92672">is</span>: <span style="color:#ae81ff">6</span>
+</span></span><span style="display:flex;"><span>The number <span style="color:#f92672">is</span>: <span style="color:#ae81ff">8</span>
+</span></span><span style="display:flex;"><span>The number <span style="color:#f92672">is</span>: <span style="color:#ae81ff">10</span>
+</span></span></code></pre></div><p>What do inclusive and exclusive mean in this context? <em>Exclusive</em> means that the end result <em>will not</em> include that number. If you&rsquo;d like the numbers from 0 to 4, you would call <code>range(5)</code>. Consider 5 to the <em>stopping point</em>. <em>Inclusive</em> means the range will include the number. The <code>start</code> parameter is inclusive, meaning if you&rsquo;d like the range of numbers from 1 to 4, you&rsquo;d call <code>range(1, 5)</code>.</p>
+
+<div class="notices tip" ><p>If you can&rsquo;t remember how to use range, don&rsquo;t forget to call <code>help(range)</code> from the command line.</p>
+</div>
+
+<h4 id="looping-over-items-with-the-index-using-enumerate">Looping over items with the index using <code>enumerate</code>.</h4>
+<p>In Python, we avoid writing code like the JavaScript <code>for</code> loop at the top, but sometimes it&rsquo;s unavoidable, and we need a way to access the index of the items we&rsquo;re looping through. To do that we use a special function called <code>enumerate()</code>. The function takes a sequence, like a <code>list</code>, and it <em>returns</em> a <code>list</code> of tuples, containing the index of the item in the sequence, and the sequence itself.</p>
+<p>Don&rsquo;t worry about the list of tuples for now, but remember our tuple unpacking from earlier?</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;&gt;</span> point <span style="color:#f92672">=</span> (<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">11</span>)
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;&gt;</span> x, y, z <span style="color:#f92672">=</span> point
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;&gt;</span> x
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;&gt;</span> y
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">5</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;&gt;</span> z
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">11</span>
+</span></span></code></pre></div><p>Because <code>enumerate()</code> returns a structure that looks like a list of <code>tuple</code>s under the hood, we can take advantage of tuple unpacking in the <code>for</code> loop.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#66d9ef">for</span> index, item <span style="color:#f92672">in</span> enumerate(colors):
+</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>     print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Item: </span><span style="color:#e6db74">{</span>item<span style="color:#e6db74">}</span><span style="color:#e6db74"> is at index: </span><span style="color:#e6db74">{</span>index<span style="color:#e6db74">}</span><span style="color:#e6db74">.&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>
+</span></span><span style="display:flex;"><span>Item: Red <span style="color:#f92672">is</span> at index: <span style="color:#ae81ff">0.</span>
+</span></span><span style="display:flex;"><span>Item: Green <span style="color:#f92672">is</span> at index: <span style="color:#ae81ff">1.</span>
+</span></span><span style="display:flex;"><span>Item: Blue <span style="color:#f92672">is</span> at index: <span style="color:#ae81ff">2.</span>
+</span></span><span style="display:flex;"><span>Item: Orange <span style="color:#f92672">is</span> at index: <span style="color:#ae81ff">3.</span>
+</span></span></code></pre></div>
+<div class="notices tip" ><p>Remember, indicies in Python start at zero.</p>
+</div>
+
+<h4 id="looping-over-a-dictionary">Looping over a dictionary</h4>
+<p>Now that we know we can use tuple unpacking in a for loop, let&rsquo;s go over how to loop over a dictionary.</p>
+<p>Let&rsquo;s say we have a dictionary of colors to their hex color code used for HTML in websites.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;&gt;</span> hex_colors <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>     <span style="color:#e6db74">&#34;Red&#34;</span>: <span style="color:#e6db74">&#34;#FF&#34;</span>,
+</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>     <span style="color:#e6db74">&#34;Green&#34;</span>: <span style="color:#e6db74">&#34;#008&#34;</span>,
+</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>     <span style="color:#e6db74">&#34;Blue&#34;</span>: <span style="color:#e6db74">&#34;#0000FF&#34;</span>,
+</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span> }
+</span></span></code></pre></div>
+<div class="notices warning" ><p>Remember, a dictionary is composed of key, value pairs. When we loop over a dictionary with the <code>for item in my_dict</code> syntax, we&rsquo;ll end up looping over <strong>just</strong> the keys.</p>
+</div>
+
+<p>In this example, notice how we&rsquo;re looping over the wrong thing:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#66d9ef">for</span> color <span style="color:#f92672">in</span> hex_colors:
+</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>     print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;The value of color is actually: </span><span style="color:#e6db74">{</span>color<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>
+</span></span><span style="display:flex;"><span>The value of color <span style="color:#f92672">is</span> actually: Red
+</span></span><span style="display:flex;"><span>The value of color <span style="color:#f92672">is</span> actually: Green
+</span></span><span style="display:flex;"><span>The value of color <span style="color:#f92672">is</span> actually: Blue
+</span></span></code></pre></div>
+<div class="notices tip" ><p>If we want to loop over the key, value pairs in a dictionary, we&rsquo;ll want to call <code>my_dict.items()</code>.</p>
+</div>
+
+<p>We can use tuple unpacking along with the <code>my_dict.items()</code> list to loop over both the keys and the values at the same time.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#66d9ef">for</span> color, hex_value <span style="color:#f92672">in</span> hex_colors<span style="color:#f92672">.</span>items():
+</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>     print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;For color </span><span style="color:#e6db74">{</span>color<span style="color:#e6db74">}</span><span style="color:#e6db74">, the hex value is: </span><span style="color:#e6db74">{</span>hex_value<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>
+</span></span><span style="display:flex;"><span>For color Red, the hex value <span style="color:#f92672">is</span>: <span style="color:#75715e">#FF0000</span>
+</span></span><span style="display:flex;"><span>For color Green, the hex value <span style="color:#f92672">is</span>: <span style="color:#75715e">#008000</span>
+</span></span><span style="display:flex;"><span>For color Blue, the hex value <span style="color:#f92672">is</span>: <span style="color:#75715e">#0000FF</span>
+</span></span></code></pre></div><h5 id="common-errors">Common Errors</h5>
+<p>What if you try to loop over key, value pairs, and forget to use <code>my_dict.items()</code>?</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#66d9ef">for</span> color, hex_value <span style="color:#f92672">in</span> hex_colors:
+</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>     print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;For color </span><span style="color:#e6db74">{</span>color<span style="color:#e6db74">}</span><span style="color:#e6db74">, the hex value is: </span><span style="color:#e6db74">{</span>hex_value<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>
+</span></span><span style="display:flex;"><span>Traceback (most recent call last):
+</span></span><span style="display:flex;"><span>  File <span style="color:#e6db74">&#34;&lt;stdin&gt;&#34;</span>, line <span style="color:#ae81ff">1</span>, <span style="color:#f92672">in</span> <span style="color:#f92672">&lt;</span>module<span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">ValueError</span>: too many values to unpack (expected <span style="color:#ae81ff">2</span>)
+</span></span></code></pre></div>
+<div class="notices info" ><p>You&rsquo;ll see <code>ValueError: too many values to unpack (expected 2)</code> if you <em>forget</em> to call <code>my_dict.items()</code>, and try to loop over what you&rsquo;d expect to be key, value pairs.</p>
+</div>
+
+<h4 id="additional-resources">Additional Resources</h4>
+<p>If you really want to be a pro at looping in a Pythonic way, I recommend watching Raymond Hettinger&rsquo;s talk - <a href="https://www.youtube.com/watch?time_continue=1855&v=OSGv2VnC0go">Transforming Code into Beautiful, Idiomatic Python</a> after the course.</p>
+
+
+<footer class="footline">
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/en/02-introduction-to-python/110-control-statements-looping/" title="Loops and Control Statements"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/en/02-introduction-to-python/110-control-statements-looping/10-if-else-elif/" title="if, else, elif" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/js/clipboard.min.js?1708689535"></script>
+    <script src="/js/perfect-scrollbar.min.js?1708689535"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1708689535"></script>
+    <script src="/js/jquery.sticky.js?1708689535"></script>
+    <script src="/js/featherlight.min.js?1708689535"></script>
+    <script src="/js/highlight.pack.js?1708689535"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom-3.6.0.js?1708689535"></script>
+    <script src="/js/learn.js?1708689535"></script>
+    <script src="/js/hugo-learn.js?1708689535"></script>
+    
+        
+            <script src="/mermaid/mermaid.js?1708689535"></script>
+        
+        <script>
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    
+    
+
+  </body>
+</html>
+
