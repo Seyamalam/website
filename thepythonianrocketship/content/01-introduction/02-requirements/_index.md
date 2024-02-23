@@ -7,8 +7,8 @@ weight: 3
 You'll need a few mandatory prerequisites for successfully participating in the course.
 {{% /notice %}}
 
-- A Linux, Mac OS, a Windows 10 Machine
-- Python3.7
+- A Linux, Mac OS, a Windows 10/11 Machine
+- Python 3.7 or higher
 - Visual Studio Code
 - The Python Extension for Visual Studio Code
 

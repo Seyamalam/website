@@ -5,11 +5,11 @@ draft: false
 weight: 2
 ---
 
-The course content is free and open source, and hosted on GitHub. A link will be available *after the class* so that edits can be suggested via Pull Requests.
+The course content is free and open source, and hosted on GitHub. A link is available  so that edits can be suggested via Pull Requests.
 
 ### Suggesting Changes to The Course Material
 
-If you notice a typo or any other issues with the material *after the class*, please open a pull request on GitHub by clicking the "Edit this page" button on the top right corner of every course page.
+If you notice a typo or any other issues with the material, please open a pull request on GitHub by clicking the "Edit this page" button on the top right corner of every course page.
 
 <img src="{{"/images/snake-scaled.png" | relURL }}">
 

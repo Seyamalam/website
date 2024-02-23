@@ -19,5 +19,3 @@ disableToc: true
 * [Tables](https://codepen.io/gmb/pen/xVGYZw)
 * [Error Page](https://codepen.io/akashrajendra/pen/JKKRvQ)
 
-
-##### Special thanks to my [❤️ Max](http://twitter.com/mhenstell) for moral support while I worked on this class.

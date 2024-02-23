@@ -90,7 +90,7 @@
       <link>https://pythonianrocketship.github.io/en/01-introduction/00-who/</link>
       <pubDate>Thu, 24 Jan 2019 09:14:14 -0800</pubDate>
       <guid>https://pythonianrocketship.github.io/en/01-introduction/00-who/</guid>
-      <description>&amp;lt;a href=&amp;ldquo;https://twitter.com/Seyamalam1&#34; target=&amp;quot;_blank&amp;rdquo;&amp;quot;&amp;gt; @Seyamalam1 Touhidul Alam Seyam Hi, I&amp;rsquo;m Nina Zakharenko. I&amp;rsquo;m a Senior Cloud Developer Advocate at Microsoft, focusing on Python. Before Microsoft, I wrote code for other cool companies like Reddit, Meetup, and HBO. In my spare time I like drinking scotch and tinkering with wearable electronics. I enjoy hiking and snowboarding from my home base in Portland, Oregon. I change my hair color regularly.&#xA;I&amp;rsquo;ve been involved in the Python community for approximately 6 years.</description>
+      <description>&amp;lt;a href=&amp;ldquo;https://twitter.com/Seyamalam1&#34; target=&amp;quot;_blank&amp;rdquo;&amp;quot;&amp;gt; @Seyamalam1 Touhidul Alam Seyam Hello! I&amp;rsquo;m Touhidul Alam Seyam, currently studying Computer Science and Engineering at BGC Trust University Bangladesh. As a Research Assistant at my university, I have had the opportunity to explore my passion for computer science and technology. My love for programming began when I was just 12 years old, and I haven&amp;rsquo;t looked back since. I have been working as a Freelance Automation Developer for over three years, using my skills to help clients streamline their operations and increase efficiency.</description>
     </item>
     <item>
       <title>Getting Started</title>
@@ -111,7 +111,7 @@
       <link>https://pythonianrocketship.github.io/en/01-introduction/02-navigating-course/</link>
       <pubDate>Mon, 04 Feb 2019 00:13:49 -0800</pubDate>
       <guid>https://pythonianrocketship.github.io/en/01-introduction/02-navigating-course/</guid>
-      <description>The course content is free and open source, and hosted on GitHub. A link will be available after the class so that edits can be suggested via Pull Requests.&#xA;Suggesting Changes to The Course Material If you notice a typo or any other issues with the material after the class, please open a pull request on GitHub by clicking the &amp;ldquo;Edit this page&amp;rdquo; button on the top right corner of every course page.</description>
+      <description>The course content is free and open source, and hosted on GitHub. A link is available so that edits can be suggested via Pull Requests.&#xA;Suggesting Changes to The Course Material If you notice a typo or any other issues with the material, please open a pull request on GitHub by clicking the &amp;ldquo;Edit this page&amp;rdquo; button on the top right corner of every course page.&#xA;&amp;lt;img src=&amp;quot;{{&amp;quot;/images/snake-scaled.png&amp;quot; | relURL }}&amp;quot;&amp;gt;</description>
     </item>
     <item>
       <title>Numbers</title>
@@ -566,7 +566,7 @@
       <link>https://pythonianrocketship.github.io/en/credits/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://pythonianrocketship.github.io/en/credits/</guid>
-      <description>Themes Special thanks to the hugo learn theme. Tooling Hugo Other Pixel Art CSS Styles For Final Exercise Buttons Checkboxes Tables Error Page Special thanks to my ❤️ Max for moral support while I worked on this class. </description>
+      <description>Themes Special thanks to the hugo learn theme. Tooling Hugo Other Pixel Art CSS Styles For Final Exercise Buttons Checkboxes Tables Error Page </description>
     </item>
   </channel>
 </rss>
