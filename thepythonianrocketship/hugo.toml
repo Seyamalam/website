@@ -37,7 +37,7 @@ url = "https://github.com/Seyamalam/pythonianrocketship.github.io"
 weight = 10
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fab fa-twitter'></i> Follow Nina on Twitter"
+name = "<i class='fab fa-twitter'></i> Follow Seyam on Twitter"
 url = "https://twitter.com/Seyamalam1"
 weight = 20
 

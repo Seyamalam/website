@@ -12,7 +12,7 @@ Created by Touhidul Alam Seyam. <a href="https://twitter.com/Seyamalam1" target=
 
 This course is designed to teach you the basics of Python and to give you the skills to start using Python for data analysis, web development, and more. The course is aimed at complete beginners, so you don't need to be an experienced programmer to take it.
 
-Stay up to date with me on <a href="https://www.linkedin.com/in/touhidul-alam-b675b521b/" target="_blank"><i class='fab fa-linkedin'></i> LinkedIn</a>, or to contact me directly, please send me an email at <a href='mailto:seyamalam41@gmail.com'><i class='fa fa-envelope'></i>  seyamalam41@gmail.como</a>.
+Stay up to date with me on <a href="https://www.linkedin.com/in/touhidul-alam-b675b521b/" target="_blank"><i class='fab fa-linkedin'></i> LinkedIn</a>, or to contact me directly, please send me an email at <a href='mailto:seyamalam41@gmail.com'><i class='fa fa-envelope'></i>  seyamalam41@gmail.com</a>.
 
 You can find the content and exercises on the <a href="https://github.com/Seyamalam/Course-Materials"><i class='fab fa-fw fa-github'></i>Github repo</a>.
 
